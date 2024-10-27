@@ -1,3 +1,4 @@
+## Use Reentrancy Guards
 Reentrancy is generally not expected behavior in most smart contracts, with the exception of callback systems like those used in Uniswap. As a best practice, this behavior should be restricted unless explicitly necessary.
 
 In practice, all state-changing functions that include external calls should be protected by a reentrancy guard by default, and any removal of this protection should only occur after a thorough assessment of its impact.

@@ -1,1 +1,2 @@
+## Avoid Unlimited ERC-20 Approvals
 Approving the maximum value of uint256 is a known practice to save gas. However, this pattern was proven to increase the impact of an attack many times in the past, in case the approved contract gets hacked. Consider approving the exact amount that’s needed to be transferred, or alternatively, add a permissioned function that allows the revocation of unlimited approvals in an emergency case.
