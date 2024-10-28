@@ -1,4 +1,4 @@
-# Smart Contracts Security Best Practices
+# Smart Contract Security Best Practices
 
 When web3 users are asked what influences their preference for one decentralized application (dApp) over another, security often emerges as a primary concern. Users seek platforms that have never been hacked and demonstrate a serious commitment to security. 
 
