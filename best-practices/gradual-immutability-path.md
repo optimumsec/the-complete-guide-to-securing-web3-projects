@@ -1,0 +1,7 @@
+### Design a Gradual Path Towards Immutability
+
+While decentralization is a core principle, achieving a flawless, bug-free smart contract at launch is extremely challenging. Instead, immutability should be approached as a gradual process, where the code’s resilience improves over time through broader usage, community review, and rigorous testing. Therefore, it’s often advisable to adopt a staged approach to immutability: begin with a select few contracts marked as immutable and expand this over time as confidence in the code grows. In practical terms, only a small subset of contracts, if any, should be immutable at launch, with the rest designed to be upgradeable.
+
+Factors that increase confidence in a contract include its code maturity, widespread use and auditing, and whether its logic is self-contained and isolated. Conversely, if a component is newly developed, interacts with another upgradeable smart contract, uses a novel algorithm, or has complex logic, deploying it as an upgradeable contract is often the safer route.
+
+For example, token contracts derived directly from trusted libraries are good candidates for immutability. On the other hand, a new automated market maker (AMM) model based on complex mathematics would be better suited for an upgradeable contract. As the system matures and contracts become battle-tested, the [Security Council](./security-council.md) can regularly evaluate and decide which components are ready to be made immutable.

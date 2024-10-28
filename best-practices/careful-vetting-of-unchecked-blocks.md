@@ -1,2 +1,5 @@
-## Careful Vetting Of Unchecked Blocks
-In Solidity 0.8.x, unchecked math is permitted within `unchecked` blocks, which can be beneficial for smart contracts that prioritize gas efficiency. However, this feature introduces the risk of potential over-flows and under-flows, which can lead to serious vulnerabilities and unintended consequences. Therefore, it is crucial to carefully vet and review these `unchecked` blocks to ensure that they do not compromise the safety and reliability of the contract.
+### Careful Vetting Of Unchecked Blocks
+
+In Solidity 0.8.x, unchecked math operations are permitted within `unchecked` blocks, offering an opportunity for gas optimization in smart contracts. However, this feature also introduces risks of potential overflows and underflows, which can lead to significant vulnerabilities and unintended consequences. Consequently, the best practice is to prioritize safe math operations by default, resorting to `unchecked` blocks only when clear optimizations can be achieved. 
+
+It is essential to meticulously vet and review these `unchecked` sections to ensure they do not compromise the safety and reliability of the contract. By adhering to this philosophy, developers can strike a balance between gas efficiency and robust security.
