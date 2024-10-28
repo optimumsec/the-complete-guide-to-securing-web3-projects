@@ -35,16 +35,14 @@ The following list provides a set of best practices focused on minimizing risks 
 
 [Internal Vetting Process For External Tokens](./best-practices/use-spelling-checkers.md)
 
-[Internal Security Reviews](./best-practices/internal-security-reviews.md)
-
-[External Security Reviews](./best-practices/external-security-reviews.md) - fixes should be reviewed by the auditor. three way handshake. More than a single review. Pick the right team. allocate time to find the right ones and also allocate time for fixes.
-
 ## Testing
 [Run A Testnet Campaign]()
 
 [Run An Incentivized Testnet Campaign]()
 
 [The Importance Of Code Freeze]()
+
+[]()
 
 ## Deployment
 [Soft Launch]()
@@ -54,3 +52,11 @@ The following list provides a set of best practices focused on minimizing risks 
 [Bug Bounty]()
 
 ## On-going Upgrades
+
+## Ops
+[Dedicate A Chief Of Security]()
+
+[Internal Security Reviews](./best-practices/internal-security-reviews.md)
+
+[External Security Reviews](./best-practices/external-security-reviews.md) - fixes should be reviewed by the auditor. three way handshake. More than a single review. Pick the right team. allocate time to find the right ones and also allocate time for fixes.
+
