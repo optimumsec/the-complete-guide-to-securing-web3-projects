@@ -1,17 +1,17 @@
-# Smart Contract Security Best Practices
+# Smart Contract Security Best Practices Guide
 
 When web3 users are asked what influences their preference for one decentralized application (dApp) over another, security often emerges as a primary concern. Users seek platforms that have never been hacked and demonstrate a serious commitment to security. 
 
 While there is extensive literature on smart contract vulnerabilities, discussions surrounding best practices and preventative measures are frequently underrepresented. Security extends beyond merely identifying flaws; it involves proactively integrating protective measures at every stage of the smart contract development process. 
 
-This document aims to serve as a comprehensive resource for best practices across the software development lifecycle: Design & Coding, Testing, Deployment, Ongoing Upgrades, and Ongoing Operations. 
+This guide aims to serve as a comprehensive resource for best practices across the software development lifecycle: Design, Coding, Testing, Pre-Deployment, Deployment, Ongoing Upgrades, and Ongoing Operations. If you are starting a new project or looking to strengthen the security practices of your current one, this guide can act as a one-stop shop, helping you navigate the complexities of secure development and deployment. By covering every phase of the lifecycle, it provides actionable insights and frameworks to minimize vulnerabilities, streamline workflows, and establish a culture of security from inception to operation.
 
 The following list outlines key practices focused on minimizing risks before they occur, ensuring that security is ingrained in the code from the outset.
 
 ## Design
-[Design A Gradual Path Towards Decentralization](./best-practices/gradual-immutability-path.md)
+[Design a Gradual Path Towards Immutability](./best-practices/gradual-immutability-path.md)
 
-[Actor-Based Threat Modeling](./best-practices/actor-based-threat-modeling.md)
+[Conduct an Actor-Based Threat Modeling](./best-practices/actor-based-threat-modeling.md)
 
 [Establish a Role-Based Access Control (RBAC) Model](./best-practices/rbac.md)
 
@@ -21,15 +21,15 @@ The following list outlines key practices focused on minimizing risks before the
 
 
 ## Coding
-[Use A Spell Checker](./best-practices/use-spell-checker.md)
+[Use a Spell Checker](./best-practices/use-spell-checker.md)
 
-[Use An Up To Date Compiler Version](./best-practices/use-up-to-date-compiler-version.md)
+[Use an Up To Date Compiler Version](./best-practices/use-up-to-date-compiler-version.md)
 
 [Security Driven Development](./best-practices/security-driven-development.md)
 
 [Prefer Unstructured Storage For Upgradeable Contracts](./best-practices/unstructured-storage.md)
 
-[Use A Plugin For Safe Upgrades](./best-practices/plugin-for-safe-upgrades.md)
+[Use a Plugin For Safe Upgrades](./best-practices/plugin-for-safe-upgrades.md)
 
 [Use Reentrancy Guards](./best-practices/reentrancy-guards.md)
 
@@ -37,59 +37,66 @@ The following list outlines key practices focused on minimizing risks before the
 
 [Avoid Unlimited ERC-20 Approvals](./best-practices/avoid-unlimited-erc20-approvals.md)
 
-[Use The Safe ERC-20 Library](./best-practices/safe-erc20-library.md)
+[Use the Safe ERC-20 Library](./best-practices/safe-erc20-library.md)
 
-[Use The SafeCast Library](./best-practices/safe-cast-library.md)
+[Use the SafeCast Library](./best-practices/safe-cast-library.md)
 
-[TBD] Use Math Libraries
+[WIP] Use Math Libraries
 
 [Use Cryptographic Libraries](./best-practices/use-cryptographic-libs.md)
 
-[Prefer To Avoid Low Level Calls](./best-practices/avoid-low-level-calls.md)
+[Prefer to Avoid Low Level Calls](./best-practices/avoid-low-level-calls.md)
 
-[Careful Vetting Of Unchecked Blocks](./best-practices/careful-vetting-of-unchecked-blocks.md)
+[Careful Vetting of Unchecked Blocks](./best-practices/careful-vetting-of-unchecked-blocks.md)
 
-[Avoid Arbitrary External Calls](./best-practices/avoid-arbitrary-external-calls.md)
+[Avoid Arbitrary Low Level External Calls](./best-practices/avoid-arbitrary-external-calls.md)
 
-[Adhere to EIP-712](./best-practices/use-up-to-date-compiler-versions.md)
+[Follow the EIP-712 Standard for Digital Signatures](./best-practices/adhere-to-eip-712.md)
 
-[Internal Vetting Process For External Tokens](./best-practices/use-spelling-checkers.md)
+[Vetting Process For External Tokens](./best-practices/vetting-process-for-external-tokens.md)
 
 ## Testing
-[Unit Testing]()
+[Develop Comprehensive Unit Tests](./best-practices/unit-tests.md)
 
-[Integration Testing]()
+[Develop Comprehensive Integration Tests](./best-practices/integration-tests.md)
 
-[Fuzz Testing]()
+[Develop Comprehensive Fuzzing Tests](./best-practices/fuzzing-tests.md)
 
-[Simulation Testing]()
+[Develop Comprehensive Fork Tests](./best-practices/fork-tests.md)
 
-[Testnet Campaign]()
+[Track and Optimize Test Coverage](./best-practices/optimize-test-coverage.md)
 
-[Run An Incentivized Testnet Campaign]()
+[Conduct End to End Testing on Testnet](./best-practices/e2e-tests.md)
 
-[The Importance Of Code Freeze]()
+## Pre Deployment
+[Internal Security Reviews](./best-practices/internal-security-reviews.md)
 
+[The Importance of Code Freeze Before an External Security Review](./best-practices/importance-of-code-freeze-before-an-external-review.md)
+
+[External Security Reviews](./best-practices/external-security-reviews.md)
+
+[The Importance of Code Freeze Before Deployment](./best-practices/importance-of-code-freeze-before-deployment.md)
+
+[Establish a Contingency Plan](./best-practices/establish-contingency-plan.md)
 
 ## Deployment
-[Contingency Plan]()
 
-[Soft Launch]()
+[Adopt a Safe Launch Strategy](./best-practices/soft-launch.md)
 
 [Never Deploy Code That Was Not Reviewed Externally](./best-practices/never-deploy-without-review.md)
 
-[Bug Bounty]()
+[WIP] [On-chain Deployment Script]()
 
-[On-chain Deployment Script]()
+[Launch a Bug Bounty Program](./best-practices/bug-bounty.md)
+
 
 ## On-going Upgrades
-[Fork Testing]()
-
+[WIP] [Backwards Compatibility and State Fixes]() (state, function sigs)
+[WIP] [Differential Tests]()
+[WIP] [Unit tests as regression tests]
 ## On-going Operations
-[Establish A Chief Of Security Role](./best-practices/chief-of-security.md)
+[Establish a Chief Of Security Role](./best-practices/chief-of-security.md)
 
-[Establish A Security Council](./best-practices/security-council.md)
+[Establish a Security Council](./best-practices/security-council.md)
 
-[Internal Security Reviews](./best-practices/internal-security-reviews.md)
-
-[External Security Reviews](./best-practices/external-security-reviews.md)
+[WIP] [Monitoring]()

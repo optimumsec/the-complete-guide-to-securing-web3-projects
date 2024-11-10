@@ -38,7 +38,9 @@ For each interaction, analyze potential threats:
 Prioritize threats based on their potential impact and likelihood:
 
 High Impact, High Likelihood: Must be addressed immediately.
+
 High Impact, Low Likelihood: Require monitoring and mitigations.
+
 Low Impact, High Likelihood: Address if they affect user experience or trust.
 
 6. **Define and Implement Mitigations**
