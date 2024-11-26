@@ -1,14 +1,13 @@
-# Smart Contract Security Best Practices Guide
+# 🔐 Smart Contract Security Best Practices Guide
 
-When web3 users are asked what influences their preference for one decentralized application (dApp) over another, security often emerges as a primary concern. Users seek platforms that have never been hacked and demonstrate a serious commitment to security. 
+When web3 users are asked what influences their preference for one decentralized application (dApp) over another, **security** often emerges as a primary concern. Users seek platforms that have never been hacked and demonstrate a serious commitment to security. 
 
 While there is extensive literature on smart contract vulnerabilities, discussions surrounding best practices and preventative measures are frequently underrepresented. Security extends beyond merely identifying flaws; it involves proactively integrating protective measures at every stage of the smart contract development process. 
 
 This guide aims to serve as a comprehensive resource for best practices across the software development lifecycle: Design, Coding, Testing, Pre-Deployment, Deployment, Ongoing Upgrades, and Ongoing Operations. If you are starting a new project or looking to strengthen the security practices of your current one, this guide can act as a one-stop shop, helping you navigate the complexities of secure development and deployment. By covering every phase of the lifecycle, it provides actionable insights and frameworks to minimize vulnerabilities, streamline workflows, and establish a culture of security from inception to operation.
 
-The following list outlines key practices focused on minimizing risks before they occur, ensuring that security is ingrained in the code from the outset.
 
-## Design
+## 🛡️ Design
 [Design a Gradual Path Towards Immutability](./best-practices/gradual-immutability-path.md)
 
 [Conduct an Actor-Based Threat Modeling](./best-practices/actor-based-threat-modeling.md)
@@ -20,7 +19,7 @@ The following list outlines key practices focused on minimizing risks before the
 [Circuit Breakers](./best-practices/circuit-breakers.md)
 
 
-## Coding
+## 🛡️ Coding
 [Use a Spell Checker](./best-practices/use-spell-checker.md)
 
 [Use an Up To Date Compiler Version](./best-practices/use-up-to-date-compiler-version.md)
@@ -28,6 +27,8 @@ The following list outlines key practices focused on minimizing risks before the
 [Security Driven Development](./best-practices/security-driven-development.md)
 
 [Prefer Unstructured Storage For Upgradeable Contracts](./best-practices/unstructured-storage.md)
+
+[Avoid Vendoring Dependencies](./best-practices/avoid-vendoring.md)
 
 [Use a Plugin For Safe Upgrades](./best-practices/plugin-for-safe-upgrades.md)
 
@@ -51,9 +52,9 @@ The following list outlines key practices focused on minimizing risks before the
 
 [Follow the EIP-712 Standard for Digital Signatures](./best-practices/adhere-to-eip-712.md)
 
-[Vetting Process For External Tokens](./best-practices/vetting-process-for-external-tokens.md)
+[Vetting Process for External Tokens](./best-practices/vetting-process-for-external-tokens.md)
 
-## Testing
+## 🛡️ Testing
 [Develop Comprehensive Unit Tests](./best-practices/unit-tests.md)
 
 [Develop Comprehensive Integration Tests](./best-practices/integration-tests.md)
@@ -66,7 +67,7 @@ The following list outlines key practices focused on minimizing risks before the
 
 [Conduct End to End Testing on Testnet](./best-practices/e2e-tests.md)
 
-## Pre Deployment
+## 🛡️ Pre Deployment
 [Internal Security Reviews](./best-practices/internal-security-reviews.md)
 
 [The Importance of Code Freeze Before an External Security Review](./best-practices/importance-of-code-freeze-before-an-external-review.md)
@@ -81,7 +82,7 @@ The following list outlines key practices focused on minimizing risks before the
 
 [Establish a Contingency Plan](./best-practices/establish-contingency-plan.md)
 
-## Deployment
+## 🛡️ Deployment
 
 [Adopt a Safe Launch Strategy](./best-practices/soft-launch.md)
 
@@ -89,11 +90,12 @@ The following list outlines key practices focused on minimizing risks before the
 
 [Launch a Bug Bounty Program](./best-practices/bug-bounty.md)
 
-## On-going Upgrades
+## 🛡️ On-going Upgrades
 [WIP] [Backwards Compatibility and State Fixes]() (state, function sigs)
 [WIP] [Differential Tests]()
 [WIP] [Unit tests as regression tests]
-## On-going Operations
+
+## 🛡️ On-going Operations
 [Establish a Chief Of Security Role](./best-practices/chief-of-security.md)
 
 [Establish a Security Council](./best-practices/security-council.md)
