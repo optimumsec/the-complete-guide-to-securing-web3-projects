@@ -73,9 +73,9 @@ The following list outlines key practices focused on minimizing risks before the
 
 [External Security Reviews](./best-practices/external-security-reviews.md)
 
-[WIP] [Leverage Security Reviews to Define Monitoring Security Rules](./best-practices/security-reviews-monitoring.md)
+[Implement Robust Monitoring Security Rules](./best-practices/monitoring-security-rules.md)
 
-[WIP] [Implement Robust Monitoring Logic]()
+[Leverage Security Reviews to Define Monitoring Security Rules](./best-practices/tailor-made-security-rules.md)
 
 [The Importance of Code Freeze Before Deployment](./best-practices/importance-of-code-freeze-before-deployment.md)
 

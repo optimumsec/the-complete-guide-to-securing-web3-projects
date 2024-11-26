@@ -1,4 +1,4 @@
-### Avoid Arbitrary External Calls
+## Avoid Arbitrary External Calls
 
 Arbitrary external calls are low-level calls where both the destination address and the call data—encompassing the function to be invoked and its parameters—can be manipulated. To bolster the security of your code, establish a firm rule against permitting completely arbitrary calls within your contracts. 
 

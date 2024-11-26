@@ -1,4 +1,4 @@
-### Follow the EIP-712 Standard for Digital Signatures
+## Follow the EIP-712 Standard for Digital Signatures
 
 [EIP-712](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-712.md) defines a structured approach for signing typed data, which reduces the likelihood of signature-related vulnerabilities. By standardizing the format of signed messages, it allows users to review and verify the contents of their transaction more easily, helping to prevent phishing attacks and malicious contract interactions. 
 

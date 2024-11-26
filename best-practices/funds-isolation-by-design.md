@@ -1,4 +1,4 @@
-### Funds Isolation By Design
+## Funds Isolation By Design
 
 Many smart contracts pool users' funds together and implement accounting logic on top of this shared pool, which may work effectively if there are no bugs. However, a flaw in the accounting logic can compromise the logical isolation of the contracts, potentially allowing attackers to steal all users' funds. To enhance security, smart contracts can be designed with isolation from the outset.
 

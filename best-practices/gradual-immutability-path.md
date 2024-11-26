@@ -1,4 +1,4 @@
-### Design a Gradual Path Towards Immutability
+## Design a Gradual Path Towards Immutability
 
 While decentralization is a core principle, achieving a flawless, bug-free smart contract at launch is extremely challenging. Instead, immutability should be approached as a gradual process, where the code’s resilience improves over time through broader usage, community review, and rigorous testing. Therefore, it’s often advisable to adopt a staged approach to immutability: begin with a select few contracts marked as immutable and expand this over time as confidence in the code grows. In practical terms, only a small subset of contracts, if any, should be immutable at launch, with the rest designed to be upgradeable.
 

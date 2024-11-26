@@ -1,4 +1,4 @@
-### Prefer Unstructured Storage For Upgradeable Contracts
+## Prefer Unstructured Storage For Upgradeable Contracts
 
 Linear storage, which is the default way to manage storage variables, is intuitive but has limitations. When combined with inheritance, it requires us to maintain the well-known (and some would say infamous) [`__gap` array](https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable#storage-gaps). Managing this array increases complexity and makes audits more challenging. 
 

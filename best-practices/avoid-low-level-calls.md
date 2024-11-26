@@ -1,4 +1,4 @@
-### Prefer To Avoid Low Level Calls
+## Prefer To Avoid Low Level Calls
 
 Low-level calls, such as `call`, `delegatecall`, and `staticcall`, are powerful but come with increased risk, as they bypass many of Solidity’s built-in safety checks. This can lead to issues such as unchecked return values, reentrancy vulnerabilities, and potential misinterpretation of the contract’s intended logic. 
 

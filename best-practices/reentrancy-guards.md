@@ -1,4 +1,4 @@
-### Use Reentrancy Guards
+## Use Reentrancy Guards
 
 Reentrancy is generally not expected behavior in most smart contracts, with the exception of callback systems like those used in Uniswap. As a best practice, this behavior should be restricted unless explicitly necessary.
 

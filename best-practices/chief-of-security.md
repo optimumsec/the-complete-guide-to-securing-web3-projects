@@ -1,4 +1,4 @@
-### Establish A Chief Of Security Role
+## Establish A Chief Of Security Role
 
 Dedicating a **Chief of Security** for a project is essential to establishing a clear, consistent approach to risk management and security strategy. In the fast-paced world of smart contracts and decentralized finance, vulnerabilities can arise quickly and evolve in unexpected ways.
 

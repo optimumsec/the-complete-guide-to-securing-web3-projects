@@ -1,14 +1,14 @@
-### Adopt a Safe Launch Strategy
+## Adopt a Safe Launch Strategy
 
 Launching a decentralized application (dApp) can be a high-stakes process, as any vulnerabilities or flaws could have significant financial and reputational consequences. A "soft launch" involves releasing the dApp in a controlled manner to mitigate risks and ensure robust security. Below is a guide on how to execute a soft launch effectively.
 
-#### Why Soft Launch?
+### Why Soft Launch?
 1. **Mitigate Risks**: Reduce the impact of potential vulnerabilities or exploits.
 2. **User Feedback**: Gather feedback from a limited audience to refine the application.
 3. **System Stress Testing**: Test the system under real-world conditions with limited exposure.
 4. **Incremental Trust Building**: Gradually build trust with users as the dApp demonstrates reliability.
 
-#### Steps for a Soft Launch
+### Steps for a Soft Launch
 
 1. **Limit Functionality**
    - Start with core features only, leaving more complex or less critical functionalities inactive.

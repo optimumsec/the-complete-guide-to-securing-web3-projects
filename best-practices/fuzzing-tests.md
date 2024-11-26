@@ -1,4 +1,4 @@
-### Develop Comprehensive Fuzzing Tests
+## Develop Comprehensive Fuzzing Tests
 
 Fuzzing tests are an essential tool in the smart contract security arsenal, as they help uncover vulnerabilities by bombarding contracts with random or unexpected inputs. Unlike traditional testing methods that rely on predefined scenarios, fuzzing exposes contracts to a wide range of edge cases that developers might not anticipate.
 This approach is particularly valuable for detecting issues such as arithmetic issues, and improper input validation—common vulnerabilities that attackers often exploit.

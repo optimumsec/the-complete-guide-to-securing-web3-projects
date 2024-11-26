@@ -1,4 +1,4 @@
-### Vetting Process For External Tokens
+## Vetting Process For External Tokens
 
 When integrating external tokens (such as ERC-20, ERC-721, or ERC-1155) with your system, it's essential to conduct a rigorous vetting process to prevent integration errors and security risks. Begin by thoroughly reviewing the token's code to ensure it complies with the relevant standard and behaves as expected. For instance, some ERC-20 tokens may have centralized controls, blacklists, or transfer restrictions that could lead to unexpected denial-of-service issues within your contract. 
 
