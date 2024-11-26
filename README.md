@@ -41,8 +41,6 @@ The following list outlines key practices focused on minimizing risks before the
 
 [Use the SafeCast Library](./best-practices/safe-cast-library.md)
 
-[WIP] Use Math Libraries
-
 [Use Cryptographic Libraries](./best-practices/use-cryptographic-libs.md)
 
 [Prefer to Avoid Low Level Calls](./best-practices/avoid-low-level-calls.md)
@@ -75,6 +73,10 @@ The following list outlines key practices focused on minimizing risks before the
 
 [External Security Reviews](./best-practices/external-security-reviews.md)
 
+[WIP] [Leverage Security Reviews to Define Monitoring Security Rules](./best-practices/security-reviews-monitoring.md)
+
+[WIP] [Implement Robust Monitoring Logic]()
+
 [The Importance of Code Freeze Before Deployment](./best-practices/importance-of-code-freeze-before-deployment.md)
 
 [Establish a Contingency Plan](./best-practices/establish-contingency-plan.md)
@@ -85,10 +87,7 @@ The following list outlines key practices focused on minimizing risks before the
 
 [Never Deploy Code That Was Not Reviewed Externally](./best-practices/never-deploy-without-review.md)
 
-[WIP] [On-chain Deployment Script]()
-
 [Launch a Bug Bounty Program](./best-practices/bug-bounty.md)
-
 
 ## On-going Upgrades
 [WIP] [Backwards Compatibility and State Fixes]() (state, function sigs)
@@ -98,5 +97,3 @@ The following list outlines key practices focused on minimizing risks before the
 [Establish a Chief Of Security Role](./best-practices/chief-of-security.md)
 
 [Establish a Security Council](./best-practices/security-council.md)
-
-[WIP] [Monitoring]()
