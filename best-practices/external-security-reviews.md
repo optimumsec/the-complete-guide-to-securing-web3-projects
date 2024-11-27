@@ -4,6 +4,8 @@ Engaging external security experts to review the code is crucial for ensuring th
 
 The first stage, represented by the **SYN**, corresponds to the issues identified by the security researchers during their initial review. The subsequent **SYN-ACK** phase involves the development team implementing fixes based on the security researchers' findings. Finally, the **ACK** phase signifies the security researchers verifying these fixes, confirming that the issues have been addressed effectively. 
 
+---
+
 ### How to Prepare for a Security Review
 
 1. **Pick the Right Security Researchers**  
@@ -24,6 +26,7 @@ The first stage, represented by the **SYN**, corresponds to the issues identifie
 6. **Allocate Time for Fixes**  
    Pre-allocate sufficient time for addressing any issues found during the review. After the audit, there will be fixes to implement and further testing to conduct. Be sure to budget adequate time for additional tests to ensure everything works as expected before deployment.
 
+---
 
 ### Categorization of Issues to Address in the Security Review
 

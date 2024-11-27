@@ -2,6 +2,8 @@
 
 A robust CI/CD pipeline is essential for Solidity development, ensuring code quality, security, and streamlined deployments. Below are the key components and tools to incorporate into your pipeline.
 
+---
+
 ### 1. Continuous Integration Platforms  
 - **[GitHub Actions](https://github.com/features/actions)**  
 - **[GitLab CI/CD](https://docs.gitlab.com/ee/ci/)**  

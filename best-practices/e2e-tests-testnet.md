@@ -2,6 +2,8 @@
 
 Testing smart contracts on a testnet is a crucial step in the development lifecycle. It provides a realistic environment to evaluate how the contracts perform under conditions similar to the mainnet, without the risk of losing real assets. Testnets allow developers to validate contract functionality, assess performance, and identify issues that might only surface in a distributed network.
 
+---
+
 ### Why Test on Testnets?
 
 1. **Realistic Environment**  
@@ -16,6 +18,7 @@ Testing smart contracts on a testnet is a crucial step in the development lifecy
 4. **Validation of Deployment Processes**  
    Testing deployment scripts and procedures on a testnet helps prevent costly mistakes during the actual deployment on the mainnet.
 
+---
 
 ### Key Steps for Testnet Testing
 
@@ -47,6 +50,7 @@ Testing smart contracts on a testnet is a crucial step in the development lifecy
    - Continuously analyze testnet results, refine the code, and redeploy as needed.
    - Use tools like **Etherscan** for testnets to inspect transaction details and logs.
 
+---
 
 ### Best Practices for Testnet Testing
 

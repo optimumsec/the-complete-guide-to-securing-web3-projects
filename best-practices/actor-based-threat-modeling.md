@@ -5,6 +5,8 @@ The actor-based approach to threat modeling offers a more practical, human-centr
 
 By focusing on the interactions between different actors (e.g., users, administrators, attackers), it better captures the dynamic nature of threats in decentralized systems like smart contracts. This approach allows for tailored mitigation strategies based on actor motivations, priorities risks more effectively, and provides a more comprehensive view of security by considering both technical and human factors. It is particularly well-suited for decentralized systems, where multiple actors, both on-chain and off-chain, interact with the system.
 
+---
+
 ### Key principles of Security-Driven Development (SDD):
 
 1. **Identify Actors**

@@ -2,6 +2,8 @@
 
 State migration refers to the process of modifying or correcting the on-chain state of a smart contract, often necessary during an upgrade or to address issues such as bugs or vulnerabilities. Proper handling of state migration is critical to maintaining the security and integrity of the protocol, as well as ensuring user trust. Below is a step-by-step guide to handling state migration securely.
 
+---
+
 ### Steps for Secure State Migration
 
 #### 1. **Identify and Analyze the Issue**

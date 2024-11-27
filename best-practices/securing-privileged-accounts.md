@@ -2,6 +2,8 @@
 
 Many projects rely on externally owned accounts (EOAs) for managing privileged functions, such as pausing contracts, upgrading systems, or handling sensitive administrative tasks. However, using EOAs for such purposes introduces significant security risks, as they are susceptible to key compromise. 
 
+---
+
 Below are actionable steps to handle these accounts securely.
 
 ### 1. Minimize the Use of EOAs  

@@ -2,6 +2,8 @@
 
 Vendoring smart contracts and libraries, or directly copying them into your project, might seem like a simple way to control dependencies and ensure reliability. However, this approach has its drawbacks and can introduce significant risks in the long run. Below are the key reasons why vendoring smart contracts and libraries should generally be avoided.
 
+---
+
 ### 1. **Security Risks and Dependency Management**
 
 One of the primary issues with vendoring smart contracts or libraries is the difficulty of managing security vulnerabilities over time. When you vendor code, you're essentially locking your project into a specific version of the library or contract, which makes it harder to benefit from future security updates. 

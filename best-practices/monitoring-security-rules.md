@@ -2,8 +2,11 @@
 
 Monitoring is a critical component of smart contract security. While extensive audits and formal verification help secure contracts before deployment, monitoring ensures ongoing security and operational integrity. Real-time tracking of the on-chain state helps detect anomalies, prevent exploits, and mitigate damage in case of unexpected behaviors. Additionally, code issues are sometimes discovered after deployment. For immutable smart contracts, monitoring is often the only way to mitigate these issues, making it an essential tool for maintaining security in a live environment.
 
-Effective monitoring involves two key categories of rules: **generic security rules** and [**tailor-made security rules**](./tailor-made-security-rules.md). Generic rules cover common security scenarios such as detecting abnormal balance changes or tracking failed transactions. However, tailor-made rules are equally important. These custom rules address unique aspects of a specific contract’s logic and risk profile, providing more targeted protection. Security researchers play a vital role in defining these rules during the security review of the code, leveraging their understanding of the contract’s structure and potential vulnerabilities to create a monitoring strategy that complements pre-deployment security efforts.
+Effective monitoring involves two key categories of rules: **generic security rules** and [**tailor-made security rules**](./tailor-made-security-rules.md). Generic rules cover common security scenarios such as detecting abnormal balance changes or tracking failed transactions. 
 
+However, tailor-made rules are equally important. These custom rules address unique aspects of a specific contract’s logic and risk profile, providing more targeted protection. Security researchers play a vital role in defining these rules during the security review of the code, leveraging their understanding of the contract’s structure and potential vulnerabilities to create a monitoring strategy that complements pre-deployment security efforts.
+
+---
 
 ### How to Implement Monitoring Security Rules
 
@@ -11,6 +14,8 @@ Effective monitoring involves two key categories of rules: **generic security ru
 2. **Use Reliable Tools:** Leverage blockchain analytics platforms, event listeners, or custom-built monitoring solutions.  
 3. **Automate Alerts:** Set up automated notifications for violations of predefined security rules.  
 5. **Regularly Update Rules:** As your contract evolves or as new threats emerge, refine your monitoring logic to stay effective.  
+
+---
 
 ### Examples of Generic Security Rules
 

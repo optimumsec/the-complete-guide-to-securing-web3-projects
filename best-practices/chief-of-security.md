@@ -4,6 +4,8 @@ Dedicating a **Chief of Security** for a project is essential to establishing a 
 
 A Chief of Security provides centralized leadership, overseeing security reviews, managing incident responses, and continuously assessing the threat landscape. This role ensures that security considerations are embedded at every stage of the project lifecycle—from design to deployment, and beyond.
 
+---
+
 ### Responsibilities of the Chief of Security
 
 The Chief of Security should take on the following key responsibilities:

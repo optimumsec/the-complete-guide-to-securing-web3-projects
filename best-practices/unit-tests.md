@@ -4,6 +4,8 @@ Unit tests are indispensable in smart contract development, particularly for ens
 Unit tests allow developers to validate individual components of the contract in isolation, ensuring that each function behaves as expected under both normal and edge-case scenarios. By catching logical errors early, developers can prevent vulnerabilities in a cost-effective manner.  
 Furthermore, the presence of thorough unit tests acts as a safety net during future code changes, minimizing the risk of introducing new vulnerabilities.
 
+---
+
 ### Platforms for Unit Testing
 
 1. **[Foundry](https://github.com/foundry-rs/foundry)**  

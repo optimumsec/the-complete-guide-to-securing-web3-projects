@@ -107,3 +107,6 @@ This guide offers a clear, actionable framework for integrating security through
 [Managing Privileged Accounts Securely](./best-practices/securing-privileged-accounts.md)
 
 ## 🛡️ Emergency Response
+[Handling a Security Incident](./best-practices/handling-security-incident.md)
+
+[Post-Incident Actions](./best-practices/post-incident-actions.md)

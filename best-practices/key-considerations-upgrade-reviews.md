@@ -4,6 +4,8 @@ Ensuring the security of a contract upgrade requires a focused review process ta
 
 A thorough security review must consider all state variables affected by the upgrade and re-examine any previously deployed code these changes interact with. Even if the original code was reviewed before deployment, revisiting it ensures that no hidden vulnerabilities are exposed by the upgrade.
 
+---
+
 Below are actionable tips to guide a comprehensive security review of your upgraded contract:
 
 ### 1. Confirm Compatibility with Existing Functionality  

@@ -4,6 +4,8 @@ When integrating external tokens (such as ERC-20, ERC-721, or ERC-1155) with you
 
 Additionally, certain tokens—like elastic supply tokens or fee-on-transfer tokens—may introduce balance discrepancies due to their unique mechanics, potentially breaking assumptions about balance tracking in your system. Tokens like USDT, which do not return a success value upon transfers, require special handling to ensure transaction outcomes are properly validated.
 
+---
+
 The following checklist outlines the key aspects to verify when reviewing an ERC-20 token contract:
 
 ### 1. **Review Security Audit**

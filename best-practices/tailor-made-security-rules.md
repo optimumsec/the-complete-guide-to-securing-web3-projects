@@ -5,6 +5,7 @@ Adding this step during the review also saves time and resources. Since research
 
 Most standard monitoring tools lack the ability to implement custom rules tailored to a specific contract. Security researchers can fill this gap by creating bespoke rules that address unique risks, such as monitoring for interactions with high-risk addresses or tracking anomalies in critical functions. This tailored approach provides precision and coverage that generic tools often miss.
 
+---
 
 ### Examples of Tailor-Made Security Rules
 
