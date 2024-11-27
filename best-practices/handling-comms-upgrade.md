@@ -29,11 +29,11 @@ When upgrading to introduce new features, the focus is on transparency, user rea
 
 ---
 
-## Emergency Upgrade: Fixing a Security Issue  
+### Emergency Upgrade: Fixing a Security Issue  
 
 In the case of an urgent upgrade to resolve a security vulnerability, communication must be swift and focused, with a balance between transparency and discretion.
 
-### Key Steps:
+#### Key Steps:
 1. **Act Quickly**  
    - Announce the need for immediate maintenance without disclosing sensitive details that could enable exploitation before the fix is implemented.  
 
@@ -53,7 +53,3 @@ In the case of an urgent upgrade to resolve a security vulnerability, communicat
 
 6. **Encourage Security Reporting**  
    - Remind users and developers of the project’s bug bounty program or other mechanisms to report vulnerabilities responsibly.
-
----
-
-Clear, transparent communication helps maintain user trust in both routine and emergency upgrades. Always prioritize timely updates, reassurance about fund safety, and clear instructions on any required actions.

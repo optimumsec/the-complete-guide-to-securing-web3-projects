@@ -16,13 +16,14 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Circuit Breakers](./best-practices/circuit-breakers.md)
 
-
 ## 🛡️ Coding
 [Use a Spell Checker](./best-practices/use-spell-checker.md)
 
 [Use an Up To Date Compiler Version](./best-practices/use-up-to-date-compiler-version.md)
 
 [Security Driven Development](./best-practices/security-driven-development.md)
+
+[Define a Security-Oriented CI Environment](./best-practices/security-oriented-ci.md)
 
 [Prefer Unstructured Storage For Upgradeable Contracts](./best-practices/unstructured-storage.md)
 
@@ -88,21 +89,21 @@ This guide offers a clear, actionable framework for integrating security through
 [Launch a Bug Bounty Program](./best-practices/bug-bounty.md)
 
 ## 🛡️ On-going Upgrades
-[WIP] [Handle Communications]
+[Handling Communications Before a Smart Contract Upgrade](./best-practices/handling-comms-upgrade.md)
 
-[WIP] [Backwards Compatibility with other contracts](./best-practices/upgrade-backwards-compatibillity.md)
+[Ensure Changes are Backwards Compatible](./best-practices/upgrade-backwards-compatibillity.md)
 
-[WIP] [Differential Tests]()
+[Use Existing Unit Tests to Prevent Regression Bugs](./best-practices/prevent-regression-bugs.md)
 
-[WIP] [How to Rollback]()
+[Handling State Migration in a Secure Way](./best-practices/handling-migartions.md)
 
-[WIP] [Unit tests as regression tests]()
-
-[WIP] [How to audit an upgrade]()
+[Key Considerations for the Security Review of Upgrades](./best-practices/key-considerations-upgrade-reviews.md)
 
 ## 🛡️ On-going Operations
 [Establish a Chief of Security Role](./best-practices/chief-of-security.md)
 
 [Establish a Security Council](./best-practices/security-council.md)
 
-[WIP] [Secure EOAs and Multisig signers]()
+[Managing Privileged Accounts Securely](./best-practices/securing-privileged-accounts.md)
+
+## 🛡️ Emergency Response
