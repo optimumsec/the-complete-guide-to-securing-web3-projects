@@ -1,5 +1,13 @@
-## Establish A Security Council
+## Establishing a Security Council
 
-Establishing a **Security Council** is crucial for smart contract-based projects, as it provides a dedicated, authoritative body focused on safeguarding the protocol and responding to security incidents. In decentralized environments, where code governs transactions and trust is paramount, having a security council enables rapid and organized responses to potential vulnerabilities or threats, minimizing risk to users and the protocol itself. This council can make critical decisions in emergencies, such as pausing contracts, deploying patches, or implementing circuit breakers to prevent losses. 
+A **Security Council** is essential for smart contract-based projects, providing a dedicated group to safeguard the protocol and respond to security incidents. In decentralized systems, where trust in code is critical, the council ensures rapid and organized action during emergencies, such as pausing contracts, deploying patches, or activating circuit breakers to prevent losses. Composed of trusted experts, the council supports security and stability while aligning decisions with community interests.
 
-The Security Council should consist of experienced, trusted individuals who bring diverse expertise. This includes smart contract developers, security auditors, and legal or compliance professionals to ensure that security measures align with regulatory requirements. Representatives from the community or prominent stakeholders are also beneficial, as they add transparency and help align council actions with user interests. Each member's role can vary, from vulnerability assessment and incident response to governance oversight and protocol upgrades. Their periodic assessments also help determine when contracts are secure enough to be made immutable, supporting the project's long-term stability and growth.
+### Responsibilities of the Security Council
+
+- **Emergency Actions**: Pause contracts, deploy patches, or implement circuit breakers during crises.
+- **Vulnerability Management**: Assess, prioritize, and address security vulnerabilities as they arise.
+- **Governance Oversight**: Ensure protocol decisions and upgrades adhere to security best practices.
+- **Regulatory Compliance**: Align security measures with legal and regulatory requirements.
+- **Periodic Security Reviews**: Conduct regular assessments to evaluate contract safety and recommend immutability where appropriate.
+- **Incident Response**: Lead investigations and coordinate actions in response to security breaches.
+- **Community Transparency**: Engage stakeholders and communicate actions to maintain trust.

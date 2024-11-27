@@ -1,6 +1,7 @@
 ## Launch a Bug Bounty Program
 
 Launching a bug bounty program is a crucial step for any smart contract project aiming to achieve robust security. It leverages the collective expertise of a global community of ethical hackers and security researchers, who test the code in real-world scenarios that internal teams might not anticipate.
+
 Unlike traditional audits, which offer a snapshot in time, bug bounties provide continuous scrutiny, incentivizing the discovery of vulnerabilities before malicious actors can exploit them. By rewarding those who identify weaknesses, projects not only enhance their security posture but also build trust with their community, showcasing a proactive commitment to safeguarding user funds. Here are ten key steps to help you successfully launch a bug bounty program for your smart contracts:
 
 

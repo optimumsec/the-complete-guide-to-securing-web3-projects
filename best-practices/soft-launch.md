@@ -1,4 +1,4 @@
-## Adopt a Safe Launch Strategy
+## Adopt a "Soft Launch" Strategy
 
 Launching a decentralized application (dApp) can be a high-stakes process, as any vulnerabilities or flaws could have significant financial and reputational consequences. A "soft launch" involves releasing the dApp in a controlled manner to mitigate risks and ensure robust security. Below is a guide on how to execute a soft launch effectively.
 

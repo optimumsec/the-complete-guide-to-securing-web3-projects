@@ -1,10 +1,8 @@
 # 🔐 Smart Contract Security Best Practices Guide
 
-When web3 users are asked what influences their preference for one decentralized application (dApp) over another, **security** often emerges as a primary concern. Users seek platforms that have never been hacked and demonstrate a serious commitment to security. 
+Security is a top priority for web3 users when choosing decentralized applications (dApps). They prefer platforms with a proven track record of safety and a clear commitment to secure practices. While much has been written about vulnerabilities in smart contracts, there’s less focus on practical steps to prevent them.
 
-While there is extensive literature on smart contract vulnerabilities, discussions surrounding best practices and preventative measures are frequently underrepresented. Security extends beyond merely identifying flaws; it involves proactively integrating protective measures at every stage of the smart contract development process. 
-
-This guide aims to serve as a comprehensive resource for best practices across the software development lifecycle: Design, Coding, Testing, Pre-Deployment, Deployment, Ongoing Upgrades, and Ongoing Operations. If you are starting a new project or looking to strengthen the security practices of your current one, this guide can act as a one-stop shop, helping you navigate the complexities of secure development and deployment. By covering every phase of the lifecycle, it provides actionable insights and frameworks to minimize vulnerabilities, streamline workflows, and establish a culture of security from inception to operation.
+This guide offers a clear, actionable framework for integrating security throughout the smart contract lifecycle—from design and coding to deployment and ongoing maintenance. Whether launching a new project or improving an existing one, use this resource to reduce risks, streamline processes, and build a strong foundation for secure operations.
 
 
 ## 🛡️ Design
@@ -65,7 +63,7 @@ This guide aims to serve as a comprehensive resource for best practices across t
 
 [Track and Optimize Test Coverage](./best-practices/optimize-test-coverage.md)
 
-[Conduct End to End Testing on Testnet](./best-practices/e2e-tests.md)
+[Conduct End to End Testing on Testnet](./best-practices/e2e-tests-testnet.md)
 
 ## 🛡️ Pre Deployment
 [Internal Security Reviews](./best-practices/internal-security-reviews.md)
@@ -76,26 +74,35 @@ This guide aims to serve as a comprehensive resource for best practices across t
 
 [Implement Robust Monitoring Security Rules](./best-practices/monitoring-security-rules.md)
 
-[Leverage Security Reviews to Define Monitoring Security Rules](./best-practices/tailor-made-security-rules.md)
+[Leverage Security Reviews to Define Tailor-Made Monitoring Security Rules](./best-practices/tailor-made-security-rules.md)
 
 [The Importance of Code Freeze Before Deployment](./best-practices/importance-of-code-freeze-before-deployment.md)
 
 [Establish a Contingency Plan](./best-practices/establish-contingency-plan.md)
 
 ## 🛡️ Deployment
-
-[Adopt a Safe Launch Strategy](./best-practices/soft-launch.md)
+[Adopt a "Soft Launch" Strategy](./best-practices/soft-launch.md)
 
 [Never Deploy Code That Was Not Reviewed Externally](./best-practices/never-deploy-without-review.md)
 
 [Launch a Bug Bounty Program](./best-practices/bug-bounty.md)
 
 ## 🛡️ On-going Upgrades
-[WIP] [Backwards Compatibility and State Fixes]() (state, function sigs)
+[WIP] [Handle Communications]
+
+[WIP] [Backwards Compatibility with other contracts]() (./best-practices/upgrade-backwards-compatibility.md)
+
 [WIP] [Differential Tests]()
-[WIP] [Unit tests as regression tests]
+
+[WIP] [How to Rollback]()
+
+[WIP] [Unit tests as regression tests]()
+
+[WIP] [How to audit an upgrade]()
 
 ## 🛡️ On-going Operations
-[Establish a Chief Of Security Role](./best-practices/chief-of-security.md)
+[Establish a Chief of Security Role](./best-practices/chief-of-security.md)
 
 [Establish a Security Council](./best-practices/security-council.md)
+
+[WIP] [Secure EOAs and Multisig signers]()
