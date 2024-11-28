@@ -8,7 +8,7 @@ Additionally, certain tokens—like elastic supply tokens or fee-on-transfer tok
 
 The following checklist outlines the key aspects to verify when reviewing an ERC-20 token contract:
 
-### 1. **Review Security Audit**
+### 1. **Review Security Audits**
    - Ensure you read the security review of the code thoroughly. This will help identify any potential vulnerabilities or issues that have been previously discovered.
    - Verify that all the issues identified in the security review have been properly addressed and mitigated before integrating the token into your DeFi platform.
 
