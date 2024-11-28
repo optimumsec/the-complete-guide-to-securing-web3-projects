@@ -1,9 +1,52 @@
-## Design a Gradual Path Towards Immutability
+## Gradually Transition to Immutability  
 
-While decentralization is a core principle, achieving a flawless, bug-free smart contract at launch is extremely challenging. Instead, immutability should be approached as a **gradual process**, where the code’s resilience improves over time through broader usage, community review, and rigorous testing. 
+Achieving perfect, bug-free smart contracts at launch is nearly impossible. Instead, treat **immutability** as a **gradual process**, building resilience through extensive testing, community review, and real-world use.  
 
-Therefore, it’s often advisable to adopt a staged approach to immutability: begin with a select few contracts marked as immutable and **expand this over time** as confidence in the code grows. In practical terms, only a small subset of contracts, if any, should be immutable at launch, with the rest designed to be upgradeable.
+By starting with upgradeable contracts and gradually transitioning key components to immutability, you can ensure a balance between security and adaptability as your system matures.
 
-Factors that increase confidence in a contract include its code maturity, widespread use and auditing, and whether its logic is self-contained and isolated. Conversely, if a component is newly developed, interacts with another upgradeable smart contract, uses a novel algorithm, or has complex logic, deploying it as an upgradeable contract is often the safer route.
+---
 
-For example, token contracts derived directly from trusted libraries are good candidates for immutability. On the other hand, a new automated market maker (AMM) model based on complex mathematics would be better suited for an upgradeable contract. As the system matures and contracts become battle-tested, the [Security Council](./security-council.md) can regularly evaluate and decide which components are ready to be made immutable.
+### Why Gradual Immutability?  
+- **Flexibility:** Allows for fixes and improvements in the early stages.  
+- **Risk Mitigation:** Reduces the impact of unforeseen vulnerabilities.  
+- **Progressive Security:** Confidence in the code grows over time as it is battle-tested.  
+
+---
+
+### Staged Approach to Immutability  
+
+1. **Start with Upgradeable Contracts**  
+   - Design most contracts to be upgradeable at launch, especially those with:  
+     - Complex or novel logic.  
+     - Dependencies on other upgradeable components.  
+     - Frequent interactions with external systems.  
+
+2. **Identify Candidates for Immutability**  
+   - Mature contracts with:  
+     - Simple, self-contained logic.  
+     - Code derived from trusted libraries.  
+     - Extensive audits and real-world use.  
+
+3. **Transition Gradually**  
+   - As confidence builds, evaluate contracts for immutability using these factors:  
+     - **Code Maturity:** Proven stability over time.  
+     - **Usage:** Widespread adoption and testing by the community.  
+     - **Isolation:** Minimal interaction with upgradeable components.  
+
+---
+
+### Examples  
+
+#### 1. **Good Candidate for Immutability**  
+- **Token Contracts:** Based on trusted libraries like OpenZeppelin and with self-contained logic.  
+
+#### 2. **Better Suited for Upgradeability**  
+- **New AMM Models:** Complex or experimental algorithms that may require adjustments post-deployment.  
+
+---
+
+### Best Practices  
+
+- **Leverage a Security Council:** Regularly assess which components are ready to transition to immutability.  
+- **Audit Thoroughly:** Ensure each contract has undergone rigorous testing and review before making it immutable.  
+- **Document the Process:** Maintain a clear record of which components are upgradeable and which are immutable.  

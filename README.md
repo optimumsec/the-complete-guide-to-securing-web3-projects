@@ -12,9 +12,9 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Establish a Role-Based Access Control (RBAC) Model](./best-practices/rbac.md)
 
-[Funds Isolation By Design](./best-practices/funds-isolation-by-design.md)
+[Design for Funds Isolation](./best-practices/design-for-funds-isolation.md)
 
-[Circuit Breakers](./best-practices/circuit-breakers.md)
+[Deploy Circuit Breakers](./best-practices/circuit-breakers.md)
 
 ## 🛡️ Coding
 [Use a Spell Checker](./best-practices/use-spell-checker.md)

@@ -1,4 +1,4 @@
-## Circuit Breakers
+## Deploy Circuit Breakers
 
 Circuit breakers are critical in smart contract security as they provide a safety mechanism to halt or pause contract functions during unexpected events or malicious attacks. This control is particularly valuable in decentralized finance (DeFi), where smart contracts hold significant funds and are exposed to constant transaction activity.
 

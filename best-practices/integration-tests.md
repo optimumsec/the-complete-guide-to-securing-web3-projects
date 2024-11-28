@@ -48,10 +48,7 @@ Integration tests help identify:
 
 - **[Tenderly](https://tenderly.co/)**  
   A platform for simulating and debugging smart contract interactions in real-time, ideal for testing complex integrations.
-
-- **[Waffle](https://ethereum-waffle.readthedocs.io/)**  
-  A library for writing and testing smart contracts with rich assertions and integration support.
-
+  
 ---
 
 ### Best Practices

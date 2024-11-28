@@ -1,9 +1,0 @@
-## Funds Isolation By Design
-
-Many smart contracts pool users' funds together and implement accounting logic on top of this shared pool, which may work effectively if there are no bugs. However, a flaw in the accounting logic can compromise the logical isolation of the contracts, potentially allowing attackers to steal all users' funds. To enhance security, smart contracts can be designed with isolation from the outset.
-
-For example, rather than aggregating the vesting allocations of all recipients within a single contract, each recipient could receive a pre-allocated amount in **their own cloned contract**. This design minimizes the impact of bugs in the vesting logic and makes it significantly harder for an attacker to exploit multiple contracts, thereby reducing the risk associated with a single point of failure.
-
-However, this architecture introduces additional complexity in terms of maintenance and upgrades, as each individual contract would need to be updated separately rather than upgrading a single centralized contract.
-
-There are [reference implementations](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/finance) available for such contracts, providing a solid foundation for building and customizing this type of decentralized architecture.
