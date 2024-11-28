@@ -25,11 +25,11 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Define a Security-Oriented CI Environment](./best-practices/security-oriented-ci.md)
 
-[Prefer Unstructured Storage For Upgradeable Contracts](./best-practices/unstructured-storage.md)
+[Prefer Unstructured Storage for Upgradeable Contracts](./best-practices/unstructured-storage.md)
 
 [Avoid Vendoring Dependencies](./best-practices/avoid-vendoring.md)
 
-[Use a Plugin For Safe Upgrades](./best-practices/plugin-for-safe-upgrades.md)
+[Use a Plugin for Safe Upgrades](./best-practices/plugin-for-safe-upgrades.md)
 
 [Use Reentrancy Guards](./best-practices/reentrancy-guards.md)
 
