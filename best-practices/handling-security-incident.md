@@ -1,9 +1,9 @@
 ## Handling a Security Incident  
 
-When a security issue arises, swift and organized action is essential to minimize damage and maintain user trust. A well-prepared [**contingency plan**](./establish-contingency-plan.md), defined in advance, should guide your response to ensure consistency and efficiency. Follow these steps to effectively manage a security incident:
-
+When a security issue arises, **swift and organized action** is essential to minimize damage and maintain user trust. A well-prepared [**contingency plan**](./establish-contingency-plan.md), defined in advance, should guide your response to ensure consistency and efficiency.
 
 ---
+ Follow these steps to effectively manage a security incident:
 
 ### 1. Analyze the Incident  
 - **Identify the Scope:** Determine the root cause, affected contracts, and the extent of the vulnerability.  
@@ -22,6 +22,11 @@ When a security issue arises, swift and organized action is essential to minimiz
 - **Test on Testnets:** Simulate real-world scenarios to validate the fix without introducing new issues.  
 - **Audit the Fix:** Have security researchers review the fix independently before deployment.  
 
-### 5. Redeploy and Resume Operations  
+### 5. Migrate Data if Needed  
+- **Assess Data State:** Determine if the issue has affected the integrity or accuracy of stored data.  
+- **Plan Data Updates:** Develop scripts or processes to repair or migrate affected data.  
+- **Validate Migration:** Thoroughly test data migration scripts on a testnet to confirm correctness and prevent additional errors.  
+
+### 6. Redeploy and Resume Operations  
 - **Roll Out Incrementally:** Deploy the patched version in stages, starting with non-critical systems to monitor its behavior.  
 - **Unpause Safely:** Resume operations only after verifying that the issue has been fully resolved.
