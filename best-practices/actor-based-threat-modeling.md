@@ -7,7 +7,7 @@ By focusing on the interactions between different actors (e.g., users, administr
 
 ---
 
-### Key principles of Security-Driven Development (SDD):
+### Key principles of Actor-Based Threat Modeling:
 
 1. **Identify Actors**
 Actors are entities that interact with the smart contract. They can be:
