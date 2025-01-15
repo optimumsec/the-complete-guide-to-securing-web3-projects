@@ -21,7 +21,7 @@ When working with low-level calls in Solidity, prefer `abi.encodeCall` over manu
 
 ### Example
 
-When using `abi.encodeWithSelector` with a function signature represented as a string, Solidity can introduce subtle bugs due to type inconsistencies. For example:
+When using `abi.encodeWithSignature` with a function signature represented as a string, Solidity can introduce subtle bugs due to type inconsistencies. For example:
 
 ```solidity
 pragma solidity ^0.8.0;
@@ -32,8 +32,8 @@ contract Example {
     }
 
     function unsafeEncode() public pure returns (bytes memory) {
-        // Incorrect usage
-        return abi.encodeWithSelector(bytes4(keccak256("f(uint amount)")), 123);
+        // 
+        return abi.encodeWithSignature("f(uint)", 123);
     }
 }
 ```
@@ -41,8 +41,8 @@ contract Example {
 #### The Problem Explained:
 - The function `f(uint amount)` is described using `uint` in the string format.
 - During compilation, `uint` is converted to `uint256`.
-- However, the string `"f(uint amount)"` does not automatically get converted to `"f(uint256 amount)"`.
-- This results in a selector mismatch, making the encoded call uncallable.
+- However, the string `"f(uint)"` does not automatically get converted to `"f(uint256)"`.
+- This results in a selector mismatch, making the encoded call un-callable.
 
 #### Solution: Use `abi.encodeCall`
 
@@ -66,7 +66,7 @@ contract Example {
 ### Actionable Practices
 
 - **Avoid Manual Encoding:**  
-  - Manual method: `bytes4(keccak256("transfer(address,uint256)"))`  
+  - Manual method: `"transfer(address,uint256)"`  
   - Safer alternative: `abi.encodeCall(IERC20.transfer, (recipient, amount))`
 
 - **Use Named Function References:**  
