@@ -14,7 +14,7 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Design for Funds Isolation](./best-practices/design-for-funds-isolation.md)
 
-[Deploy Circuit Breakers](./best-practices/circuit-breakers.md)
+[Consider Deploying Circuit Breakers](./best-practices/circuit-breakers.md)
 
 ## 🛡️ Coding
 [Use a Spell Checker](./best-practices/use-spell-checker.md)
