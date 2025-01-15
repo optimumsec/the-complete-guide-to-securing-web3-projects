@@ -27,12 +27,13 @@ When using `abi.encodeWithSignature` with a function signature represented as a 
 pragma solidity ^0.8.0;
 
 contract Example {
+    // f(uint amount) is changed to f(uint256 amount) after compilation
     function f(uint amount) public pure returns (uint256) {
         return amount * 2;
     }
 
     function unsafeEncode() public pure returns (bytes memory) {
-        // 
+        // f(uint) does not exist 
         return abi.encodeWithSignature("f(uint)", 123);
     }
 }
