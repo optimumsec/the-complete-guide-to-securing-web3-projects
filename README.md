@@ -47,7 +47,7 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Prefer to Avoid Low Level Calls](./best-practices/avoid-low-level-calls.md)
 
-[Use `abi.encodeWithSelector` for Low Level Calls](./best-practices/abi-encode-with-selector.md)
+[Use `abi.encodeCall` for Low Level Calls](./best-practices/abi-encode-call.md)
 
 [Careful Vetting of Unchecked Blocks](./best-practices/careful-vetting-of-unchecked-blocks.md)
 
