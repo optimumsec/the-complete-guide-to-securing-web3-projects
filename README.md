@@ -25,6 +25,8 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Define a Security-Oriented CI Environment](./best-practices/security-oriented-ci.md)
 
+[Code Conservatism: Less is More](./best-practices/code-conservatism.md)
+
 [Prefer Unstructured Storage for Upgradeable Contracts](./best-practices/unstructured-storage.md)
 
 [Avoid Vendoring Dependencies](./best-practices/avoid-vendoring.md)
@@ -44,6 +46,8 @@ This guide offers a clear, actionable framework for integrating security through
 [Use Cryptographic Libraries](./best-practices/use-cryptographic-libs.md)
 
 [Prefer to Avoid Low Level Calls](./best-practices/avoid-low-level-calls.md)
+
+[Use `abi.encodeWithSelector` for Low Level Calls](./best-practices/abi-encode-with-selector.md)
 
 [Careful Vetting of Unchecked Blocks](./best-practices/careful-vetting-of-unchecked-blocks.md)
 
