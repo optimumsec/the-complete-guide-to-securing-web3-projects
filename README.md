@@ -10,6 +10,8 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Conduct an Actor-Based Threat Modeling](./best-practices/actor-based-threat-modeling.md)
 
+[Principle of Least Privilege](./best-practices/least-privilege.md)
+
 [Establish a Role-Based Access Control (RBAC) Model](./best-practices/rbac.md)
 
 [Design for Funds Isolation](./best-practices/design-for-funds-isolation.md)
