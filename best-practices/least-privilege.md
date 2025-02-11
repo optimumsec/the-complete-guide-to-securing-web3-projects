@@ -58,7 +58,7 @@ contract CloneCaller {
 }
 ```
 
-This example highlights a potential vulnerability. While `CloneCaller.createNewClone()` is access-controlled, there’s a risk from front runners who could directly call `Factory.createClone()`, potentially blocking `createNewClone()` and causing a denial of service.
+This example highlights a potential vulnerability. While `CloneCaller.createNewClone()` is access-controlled, there’s a risk from front runners who could directly call `Factory.createClone()`, potentially blocking `createNewClone()` and causing a denial of service. Therefore, `Factory.createClone()` should be restricted only for `CloneCaller`.
 
 ### Best Practices
 
