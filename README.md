@@ -18,6 +18,8 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Consider Deploying Circuit Breakers](./best-practices/circuit-breakers.md)
 
+[Global Registry for Project Deployed Smart Contracts](./best-practices/global-registry.md)
+
 ## 🛡️ Coding
 [Use a Spell Checker](./best-practices/use-spell-checker.md)
 
