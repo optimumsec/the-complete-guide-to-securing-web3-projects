@@ -21,6 +21,8 @@ This guide offers a clear, actionable framework for integrating security through
 [Global Registry for Project Deployed Smart Contracts](./best-practices/global-registry.md)
 
 ## 🛡️ Coding
+[Code Conservatism: Less is More](./best-practices/code-conservatism.md)
+
 [Use a Spell Checker](./best-practices/use-spell-checker.md)
 
 [Use an Up To Date Compiler Version](./best-practices/use-up-to-date-compiler-version.md)
@@ -28,8 +30,6 @@ This guide offers a clear, actionable framework for integrating security through
 [Security Driven Development](./best-practices/security-driven-development.md)
 
 [Define a Security-Oriented CI Environment](./best-practices/security-oriented-ci.md)
-
-[Code Conservatism: Less is More](./best-practices/code-conservatism.md)
 
 [Prefer Unstructured Storage for Upgradeable Contracts](./best-practices/unstructured-storage.md)
 
@@ -51,7 +51,7 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Prefer to Avoid Low Level Calls](./best-practices/avoid-low-level-calls.md)
 
-[Use `abi.encodeCall` for Low Level Calls](./best-practices/abi-encode-call.md)
+[Use `abi.encodeCall()` for Low Level Calls](./best-practices/abi-encode-call.md)
 
 [Careful Vetting of Unchecked Blocks](./best-practices/careful-vetting-of-unchecked-blocks.md)
 
