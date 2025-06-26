@@ -1,4 +1,4 @@
-# 🔐 The Complete Guide to Securing Smart Contracts
+# 🔐 The Complete Guide to Securing Web3 Protocols
 
 Security is a top priority for web3 users when choosing decentralized applications (dApps). They prefer platforms with a proven track record of safety and a clear commitment to secure practices. While much has been written about vulnerabilities in smart contracts, there’s less focus on practical steps to prevent them.
 
