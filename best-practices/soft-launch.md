@@ -6,9 +6,8 @@ Launching a decentralized application (dApp) can be a high-stakes process, as an
 
 ### Why Soft Launch?
 1. **Mitigate Risks**: Reduce the impact of potential vulnerabilities or exploits.
-2. **User Feedback**: Gather feedback from a limited audience to refine the application.
-3. **System Stress Testing**: Test the system under real-world conditions with limited exposure.
-4. **Incremental Trust Building**: Gradually build trust with users as the dApp demonstrates reliability.
+2. **System Stress Testing**: Test the system under real-world conditions with limited exposure.
+3. **Incremental Trust Building**: Gradually build trust with users as the dApp demonstrates reliability.
 
 ---
 
@@ -16,7 +15,7 @@ Launching a decentralized application (dApp) can be a high-stakes process, as an
 
 1. **Limit Functionality**
    - Start with core features only, leaving more complex or less critical functionalities inactive.
-   - Example: Allow basic transactions but disable advanced features like governance or staking.
+   - Example: Allow users to deposit funds into the platform but disable withdrawals temporarily.
 
 2. **Cap Funds and Transactions**
    - **Set Transaction Limits**: Limit the maximum value of transactions to reduce potential losses in case of an exploit.
@@ -26,22 +25,6 @@ Launching a decentralized application (dApp) can be a high-stakes process, as an
    - **Whitelist Early Users**: Restrict access to a small group of trusted participants or community members.
    - **Invite-Only Beta**: Use invitation codes to onboard users gradually.
 
-4. **Monitoring and Observability**
-   - **Enable Detailed Logging**: Track user interactions and contract events in real-time.
-   - **Set Up Alerts**: Use automated monitoring tools to detect anomalies such as large transactions or unexpected contract calls.
-
-5. **Emergency Mechanisms**
-   - **Pause/Stop Contracts**: Ensure contracts have built-in circuit breakers or emergency stop functions.
-   - **Recovery Plans**: Define a protocol for migrating funds or rolling back changes if a critical issue is identified.
-
-6. **Feedback Loop**
-   - **Gather User Feedback**: Actively solicit feedback from early users to identify usability issues or pain points.
-   - **Iterate Quickly**: Use the feedback to refine features and fix bugs.
-
-7. **Gradual Expansion**
+4. **Gradual Expansion**
    - **Increase Limits Incrementally**: Slowly raise transaction and deposit caps as confidence in the system grows.
    - **Unlock Additional Features**: Enable more functionalities over time after thorough testing and validation.
-
-8. **Public Audits and Bug Bounties**
-   - **Post-Launch Audits**: Conduct additional audits based on real-world usage data.
-   - **Bug Bounty Programs**: Incentivize the community to find and report vulnerabilities.
