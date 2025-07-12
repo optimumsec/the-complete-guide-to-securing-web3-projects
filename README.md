@@ -94,7 +94,7 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Never Deploy Code That Was Not Reviewed Externally](./best-practices/never-deploy-without-review.md)
 
-[]()
+[Verify Your Deployed Contracts](./best-practices/post-deployment-verification.md)
 
 [Launch a Bug Bounty Program](./best-practices/bug-bounty.md)
 

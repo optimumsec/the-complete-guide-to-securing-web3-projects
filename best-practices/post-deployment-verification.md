@@ -1,4 +1,4 @@
-## Post-Deployment Verification Checklist
+## Verify Your Deployed Contracts
 
 Deploying a smart contract to mainnet is a point of no return — any misconfiguration or overlooked mistake can lead to loss of funds or trust. A robust verification process after deployment ensures that the contract matches the audited code and behaves as expected. Below is a structured guide to verifying a smart contract deployment securely and thoroughly.
 
