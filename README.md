@@ -116,6 +116,8 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Managing Privileged Accounts Securely](./best-practices/securing-privileged-accounts.md)
 
+[Add Regression Tests After Fixing Vulnerabilities](./best-practices/regression-tests-for-vulns.md)
+
 ## 🛡️ Emergency Response
 [Handling a Security Incident](./best-practices/handling-security-incident.md)
 
