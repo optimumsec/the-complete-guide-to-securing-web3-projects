@@ -8,54 +8,53 @@ The first stage, represented by the **SYN**, corresponds to the issues identifie
 
 ### How to Prepare for a Security Review
 
+**Smart contract security is a collaborative effort**. It’s not just the responsibility of security researchers to ensure a codebase is secure—developers play a crucial role too. Both sides need to align on a shared mission: to surface and fix vulnerabilities before they make it to production.
+
+A core principle to understand is that **the main resource in any security review is the time and focus of the researchers**. Reviews are already quite expensive. If researchers are spending their time flagging basic issues, they're not spending that time analyzing complex logic or subtle edge cases that could cause real-world financial loss. **Too many avoidable bugs eat into review time**, and each one takes time to document clearly—especially in professional settings where researchers are expected to produce detailed reports. That reduces the time available to uncover hidden, critical issues.
+
+So how can developers help maximize the value of a security review?
+
 1. **Pick the Right Security Researchers**  
    Choose researchers with the relevant expertise and a proven track record. It's crucial to select professionals you can trust to act ethically and transparently. Look for researchers who specialize in smart contract security and have demonstrated success in similar projects.
 
 2. **Assess the Effort (Time and Budget)**  
    Ask the security researchers to assess the time and budget required for the review. This will ensure you have realistic expectations and resources in place to complete the review and fix any identified issues.
 
-3. **Prepare Documentation**  
-   Provide comprehensive documentation to help the security researchers better understand your system. This might include architecture diagrams, an overview of the contract's logic, dependencies, and other relevant details. The more context they have, the more effective their review will be.
+3. **Test Coverage**  
+   A high level of test coverage is foundational. We expect at least 90%+ coverage, including statement, branch, and function coverage. But it's not just about raw percentages. You need to test both:  
+   - **Happy paths**—the expected flow when everything works as intended.  
+   - **Failure paths**—unexpected inputs, edge cases, and revert scenarios.  
+   A red flag for us is when the codebase has too many bugs that could’ve easily been caught just by testing happy paths.
 
 4. **Identify Areas of Concern**  
    Prepare a list of areas where you specifically want extra assurance. This can include complex logic, integrations with other contracts, or areas that you know may carry higher risk. By highlighting these areas, you can ensure that the review is focused and efficient.
 
-5. **Thoroughly Test Before the Review**  
-   Ensure your smart contracts have been thoroughly tested before undergoing the external security review. This will help you catch basic flaws and ensure that the researchers can focus on more complex issues rather than spending time on fundamental mistakes.
+5. **Test Variety**  
+   Unit tests are essential, but not sufficient. You should also include:  
+   - **Integration tests** that simulate interactions between components.  
+   - **Fork-based tests** using live network state and real token balances.  
+   - **Fuzz testing**, where tools like Foundry or Echidna randomly mutate inputs to uncover unexpected behavior.
 
 6. **Allocate Time for Fixes**  
    Pre-allocate sufficient time for addressing any issues found during the review. After the audit, there will be fixes to implement and further testing to conduct. Be sure to budget adequate time for additional tests to ensure everything works as expected before deployment.
 
----
+7. **Deployment Readiness**  
+   We often see projects that delay writing deployment scripts until the very end. That’s a mistake. Security reviewers should be able to review and run your deployment process—ideally in a testnet environment that mimics mainnet settings. Scripts should include:  
+   - Configuration options.  
+   - Admin setup.  
+   - Upgradeability logic, if relevant.  
+   Also, testnet deployment and basic real-world interactions—minting tokens, transferring ownership, calling governance—should be working and demonstrable before review starts.
 
-### Categorization of Issues to Address in the Security Review
+8. [**Internal Review**](./internal-security-reviews.md)
+   Before handing code over for external security review, it should go through an internal review by developers who didn’t write the code. Fresh eyes often catch obvious flaws and can verify whether the design aligns with the implementation. It also shows that the team takes security seriously.
 
-To ensure a thorough security review, security researchers will typically categorize potential issues into the following areas. It's important to note that these lists are **partial** and are meant to serve as examples of the most common vulnerabilities. There may be other, more specific issues depending on the contract's complexity and functionality.
-
-1. **Well-Known Solidity Vulnerabilities**
-   - **Overflows**: Integer overflow and underflow that may lead to unintended behavior.
-   - **Reentrancy attacks**: Vulnerabilities that allow attackers to repeatedly call a contract in a malicious manner.
-   - **Out-of-gas denial of service**: Situations where the contract fails due to running out of gas.
-   - **Front-running**: Attacks where transactions can be manipulated by seeing a pending transaction.
-   - **Upgradeability issues**: Problems arising from improper upgradeability mechanisms that can affect contract behavior.
-
-2. **Well-Known Coding Vulnerabilities**
-   - **Off-by-one errors**: Common coding mistake where an array or loop index is incorrect by one.
-   - **Digital signature issues**: Improper handling or verification of digital signatures.
-   - **Lack of access control**: Inadequate protections against unauthorized users interacting with critical functions.
-
-3. **Well-Known Economic/MEV Vulnerabilities**
-   - **Arbitrage**: Opportunities for risk-free profits in decentralized finance systems.
-   - **Price manipulation**: Exploiting contract mechanisms to artificially alter asset prices.
-   - **Just-in-time (JIT) liquidity**: Exploiting liquidity pools for short-term profit opportunities without proper liquidity backing.
-
-4. **Application-Specific/Business Logic Vulnerabilities**
-   - Issues tied to how the contract interacts with business logic, user behavior, and expected outcomes. These vulnerabilities arise when the contract logic doesn't align with real-world expectations or assumptions.
-
-Additionally, if proper documentation is provided, we also cover:
-
-5. **Specification Mismatch Issues**
-   - **Discrepancies between the specification and the implementation**: Misalignment between the contract's intended behavior and its actual implementation.
-
-6. **Specification Design Issues**
-   - **Flaws in the specification itself**: Mistakes or gaps in the design of the contract's functional specification that could lead to vulnerabilities or poor behavior.
+9. **Documentation**  
+   Good documentation saves researchers time and leads to better results. Why? Security researchers need to look for a range of vulnerabilities, including:  
+   - **Well-known Solidity issues** (like reentrancy, unsafe math, unchecked return values).  
+   - **Common coding mistakes** (off-by-one errors, lack of access control, bad assumptions).  
+   - **Economic/MEV vulnerabilities** (price manipulation, oracle misuse, sandwiching opportunities).  
+   But that’s not all. Researchers also look for:  
+   - **Application-Specific/Business Logic Vulnerabilities**.  
+   - **Specification Mismatch Issues**.  
+   - **Specification Design Issues**.  
+   The better your documentation explains the intended behavior, the easier it is for researchers to catch when the code deviates from that behavior.
