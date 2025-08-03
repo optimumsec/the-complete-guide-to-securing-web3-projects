@@ -46,6 +46,7 @@ So how can developers help maximize the value of a security review?
    Also, testnet deployment and basic real-world interactions—minting tokens, transferring ownership, calling governance—should be working and demonstrable before review starts.
 
 8. [**Internal Review**](./internal-security-reviews.md)
+   
    Before handing code over for external security review, it should go through an internal review by developers who didn’t write the code. Fresh eyes often catch obvious flaws and can verify whether the design aligns with the implementation. It also shows that the team takes security seriously.
 
 9. **Documentation**  
