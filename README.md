@@ -75,11 +75,11 @@ This guide offers a clear, actionable framework for integrating security through
 [Conduct End to End Testing on Testnet](./best-practices/e2e-tests-testnet.md)
 
 ## 🛡️ Pre Deployment
-[Internal Security Reviews](./best-practices/internal-security-reviews.md)
+[Conduct an Internal Security Review](./best-practices/internal-security-reviews.md)
 
 [The Importance of Code Freeze Before an External Security Review](./best-practices/importance-of-code-freeze-before-an-external-review.md)
 
-[External Security Reviews](./best-practices/external-security-reviews.md)
+[Conduct an External Security Review (A.K.A Audit)](./best-practices/external-security-reviews.md)
 
 [Implement Robust Monitoring Security Rules](./best-practices/monitoring-security-rules.md)
 
