@@ -75,6 +75,8 @@ This guide offers a clear, actionable framework for integrating security through
 [Conduct End to End Testing on Testnet](./best-practices/e2e-tests-testnet.md)
 
 ## 🛡️ Pre Deployment
+[Key Considerations for Setting the Mainnet Deployment Date](./best-practices/setting-the-mainnet-deployment-date.md)
+
 [Conduct an Internal Security Review](./best-practices/internal-security-reviews.md)
 
 [The Importance of Code Freeze Before an External Security Review](./best-practices/importance-of-code-freeze-before-an-external-review.md)
