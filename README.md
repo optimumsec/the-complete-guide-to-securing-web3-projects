@@ -75,6 +75,8 @@ This guide offers a clear, actionable framework for integrating security through
 [Conduct End to End Testing on Testnet](./best-practices/e2e-tests-testnet.md)
 
 ## 🛡️ Pre Deployment
+[How to Decide What Type of Security Review Your Project Needs](./best-practices/types-of-security-reviews.md)
+
 [Key Considerations for Setting the Mainnet Deployment Date](./best-practices/setting-the-mainnet-deployment-date.md)
 
 [Conduct an Internal Security Review](./best-practices/internal-security-reviews.md)
