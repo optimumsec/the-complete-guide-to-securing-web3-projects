@@ -18,7 +18,7 @@ Fuzzing tests are critical for:
 
 1. **Integrate Fuzzing Tools**  
    - Use tools like **[Foundry](https://book.getfoundry.sh/)**, which has built-in fuzz testing capabilities for Solidity.  
-   - Explore **[Echidna](https://github.com/crytic/echidna)**, a specialized fuzzer for Ethereum smart contracts.  
+   - Explore **[Echidna](https://github.com/crytic/echidna)** or **[Medusa](https://github.com/crytic/medusa)**, specialized fuzzers for Ethereum smart contracts.  
 
 2. **Define Properties to Test**  
    - Specify invariant conditions (e.g., token balances, state transitions) that must always hold true, regardless of input combinations.  
@@ -45,6 +45,9 @@ Fuzzing tests are critical for:
 
 - **[Echidna](https://github.com/crytic/echidna)**  
   A powerful Ethereum fuzzer that checks user-defined invariants and generates edge-case inputs.
+
+- **[Medusa](https://github.com/crytic/echidna)**  
+  A go-ethereum-based smart contract fuzzer inspired by Echidna
 ---
 
 ### Best Practices
