@@ -1,8 +1,7 @@
-# Summary
 
 * [Introduction](README.md)
 
-* [Design](design/README.md)
+* Design
   * [Design a Gradual Path Towards Immutability](design/gradual-immutability-path.md)
   * [Actor-Based Threat Modeling](design/actor-based-threat-modeling.md)
   * [Principle of Least Privilege](design/least-privilege.md)
