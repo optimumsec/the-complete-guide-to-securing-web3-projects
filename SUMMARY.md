@@ -3,13 +3,13 @@
 * [Introduction](README.md)
 
 * [Design](design/README.md)
-  * [Design a Gradual Path Towards Immutability](design/design-a-gradual-path-towards-immutability.md)
+  * [Design a Gradual Path Towards Immutability](design/gradual-immutability-path.md)
   * [Actor-Based Threat Modeling](design/actor-based-threat-modeling.md)
-  * [Principle of Least Privilege](design/principle-of-least-privilege.md)
-  * [Role-Based Access Control (RBAC)](design/role-based-access-control.md)
-  * [Funds Isolation](design/funds-isolation.md)
+  * [Principle of Least Privilege](design/least-privilege.md)
+  * [Role-Based Access Control (RBAC)](design/rbac.md)
+  * [Design for Funds Isolation](design/funds-isolation.md)
   * [Circuit Breakers](design/circuit-breakers.md)
-  * [Global Registry for Project Deployed Smart Contracts](design/global-registry-for-project-deployed-smart-contracts.md)
+  * [Global Registry for Project Deployed Smart Contracts](design/global-registry.md)
 
 * [Coding](coding/README.md)
   * [Code Conservatism: Less is More](coding/code-conservatism-less-is-more.md)
