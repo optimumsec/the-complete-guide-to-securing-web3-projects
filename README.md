@@ -4,4 +4,4 @@ Security is a top priority for web3 users when choosing decentralized applicatio
 
 This guide offers a clear, actionable framework for integrating security throughout the smart contract lifecycle—from design and coding to deployment and ongoing maintenance. Whether launching a new project or improving an existing one, use this resource to reduce risks, streamline processes, and build a strong foundation for secure operations.
 
-You can explore the full document here: [docs.optimumsec.xyz](https://docs.optimumsec.xyz)
+Explore the full document in [docs.optimumsec.xyz](https://docs.optimumsec.xyz)
