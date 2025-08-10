@@ -1,5 +1,5 @@
 
-* [🔐 Thex Complete Guide to Securing Web3 Protocols](README.md)
+* [🔐 The Complete Guide to Securing Web3 Protocols](README.md)
 
 * Design
   * [Design a Gradual Path Towards Immutability](design/gradual-immutability-path.md)
