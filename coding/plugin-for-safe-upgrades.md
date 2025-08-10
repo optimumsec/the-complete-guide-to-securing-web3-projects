@@ -1,4 +1,4 @@
-## Use A Plugin For Safe Upgrades
+## Use a Plugin for Safe Upgrades
 
 When setting up a proxy for a contract, there are specific restrictions concerning the contract's code. Notably, the contract mustn't include a constructor, and it's advised to steer clear of utilizing operations like selfdestruct or delegatecall due to security considerations.
 

@@ -1,4 +1,4 @@
-## Use The SafeCast Library
+## Use the SafeCast Library
 
 Down-casting in Solidity does not inherently trigger a revert on overflow, which can result in unexpected vulnerabilities or bugs. The [`SafeCast`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeCast.sol) library mitigates this problem by ensuring that the transaction reverts whenever an overflow happens during these operations. 
 

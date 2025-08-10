@@ -1,4 +1,4 @@
-## Use The Safe ERC-20 Library
+## Use the Safe ERC-20 Library
 
 When working with third-party ERC20 tokens, using the [`SafeERC20`](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/utils/SafeERC20.sol) library is crucial to avoid common pitfalls. Functions like `safeTransfer` and `safeApprove` include additional safety checks that standard ERC20 functions often lack. 
 

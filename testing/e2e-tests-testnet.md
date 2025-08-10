@@ -1,4 +1,4 @@
-## Conduct End to End Testing on Testnet
+## Conduct End-to-End Testing on Testnet
 
 Testing smart contracts on a testnet is a crucial step in the development lifecycle. It provides a realistic environment to evaluate how the contracts perform under conditions similar to the mainnet, without the risk of losing real assets. Testnets allow developers to validate contract functionality, assess performance, and identify issues that might only surface in a distributed network.
 

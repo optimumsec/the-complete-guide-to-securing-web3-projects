@@ -1,4 +1,4 @@
-## Handling a Security Incident  
+## Handling a Security Incident
 
 When a security issue arises, **swift and organized action** is essential to minimize damage and maintain user trust. A well-prepared [**contingency plan**](./establish-contingency-plan.md), defined in advance, should guide your response to ensure consistency and efficiency.
 

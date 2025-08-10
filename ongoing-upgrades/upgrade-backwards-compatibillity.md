@@ -1,4 +1,4 @@
-## Ensuring Backward Compatibility When Upgrading Smart Contracts
+## Ensure Changes Are Backwards Compatible
 
 Upgrading a smart contract requires careful attention to backward compatibility. Any issues can disrupt operations, cause failures, or even introduce security vulnerabilities in dependent systems. To mitigate these risks, rigorous testing and communication are essential.
 

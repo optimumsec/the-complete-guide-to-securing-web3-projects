@@ -1,4 +1,4 @@
-## Use A Spell Checker
+## Use a Spell Checker
 
 Using a spell checker in an IDE improves Solidity code security by catching errors in documentation, comments, and variable names that may lead to misinterpretations or vulnerabilities. While some misspellings are caught by the compiler, inconsistencies in hardcoded strings—such as those in EIP-1967 variable declarations—can still introduce risks. 
 

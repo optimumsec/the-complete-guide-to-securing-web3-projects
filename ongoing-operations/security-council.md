@@ -1,4 +1,4 @@
-# Establishing a Security Council
+# Establish a Security Council
 
 A Security Council is essential for smart contract-based projects, providing a dedicated group to safeguard the protocol and respond to security incidents. In decentralized systems, where trust in code is critical, the council ensures rapid and organized action during emergencies, such as pausing contracts, deploying patches, or activating circuit breakers to prevent losses. Composed of trusted experts, the council supports security and stability while aligning decisions with community interests.
 

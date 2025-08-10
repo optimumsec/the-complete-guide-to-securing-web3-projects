@@ -1,4 +1,4 @@
-## Dedicating a Chief of Security
+## Establish a Chief of Security Role
 
 Dedicating a **Chief of Security** for a project is essential to establishing a clear, consistent approach to risk management and security strategy.
 

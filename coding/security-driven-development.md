@@ -1,4 +1,4 @@
-## Security-Driven Development (SDD)
+## Security-Driven Development
 Similar to how Test-Driven Development (TDD) focuses on writing tests before the actual code, SDD prioritizes the identification and mitigation of potential security vulnerabilities and correctness issues throughout the development process. While fully adopting all the principles of SDD might be considered heavy or even overkill for many development teams, even implementing them partially can have a significant positive impact on the overall security and reliability of the smart contract.
 
 ---

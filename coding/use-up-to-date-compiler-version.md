@@ -1,4 +1,4 @@
-## Use An Up To Date Compiler Version
+## Use an Up-To-Date Compiler Version
 
 Solidity, functioning as a domain-specific language, remains in its early stages of development. Consequently, it continues to evolve, with recent compiler iterations integrating bug fixes, novel features, enhanced "syntactic sugars", and more. Nonetheless, exercising prudence is imperative.
 

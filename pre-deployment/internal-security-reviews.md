@@ -1,4 +1,4 @@
-## Internal Security Reviews Guide for Web3
+## Conduct an Internal Security Review
 
 Immanuel Kant, a proponent of critical thinking, famously said, *"Dare to know! Have the courage to use your own understanding."* Much like ideas, code becomes more robust when it is subjected to scrutiny and challenge. The initial group to test new code should be the development team itself.
 

@@ -1,4 +1,4 @@
-## Implement a Role-Based Access Control (RBAC) Model  
+## Implement a Role-Based Access Control (RBAC) Model
 
 In decentralized applications (dApps), multiple user roles with varying levels of permissions are a given. Managing this complexity securely requires a well-defined **Role-Based Access Control (RBAC)** model. By mapping out system assets and actions, and assigning permissions based on roles rather than individual identities, you can ensure robust security and streamlined access management.
 

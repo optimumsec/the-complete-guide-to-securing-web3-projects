@@ -1,4 +1,4 @@
-## External Security Reviews
+## Conduct an External Security Review (a.k.a. Audit)
 
 Engaging external security experts to review the code is crucial for ensuring the robustness of smart contracts and mitigating potential vulnerabilities. Just as the three-way handshake establishes a reliable connection by exchanging critical information, the audit process similarly unfolds in stages. 
 

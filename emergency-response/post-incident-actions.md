@@ -1,4 +1,4 @@
-## Post-Incident Actions  
+## Post-Incident Actions
 
 Once a security incident has been resolved, it is critical to conduct a thorough review and implement preventive measures to avoid future occurrences.
 
