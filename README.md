@@ -102,7 +102,7 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Launch a Bug Bounty Program](./best-practices/bug-bounty.md)
 
-## 🛡️ On-going Upgrades
+## 🛡️ Ongoing Upgrades
 [Handling Communications Before a Smart Contract Upgrade](./best-practices/handling-comms-upgrade.md)
 
 [Ensure Changes are Backwards Compatible](./best-practices/upgrade-backwards-compatibillity.md)
@@ -113,7 +113,7 @@ This guide offers a clear, actionable framework for integrating security through
 
 [Key Considerations for the Security Review of Upgrades](./best-practices/key-considerations-upgrade-reviews.md)
 
-## 🛡️ On-going Operations
+## 🛡️ Ongoing Operations
 [Establish a Chief of Security Role](./best-practices/chief-of-security.md)
 
 [Establish a Security Council](./best-practices/security-council.md)
