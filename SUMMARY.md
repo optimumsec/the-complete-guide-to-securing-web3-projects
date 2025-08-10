@@ -1,5 +1,5 @@
 
-* [Introduction](README.md)
+* [The Complete Guide to Securing Web3 Protocols](README.md)
 
 * Design
   * [Design a Gradual Path Towards Immutability](design/gradual-immutability-path.md)
@@ -10,7 +10,7 @@
   * [Circuit Breakers](design/circuit-breakers.md)
   * [Global Registry for Project Deployed Smart Contracts](design/global-registry.md)
 
-* [Coding](coding/README.md)
+* Coding
   * [Code Conservatism: Less is More](coding/code-conservatism.md)
   * [Use a Spell Checker](coding/use-spell-checker.md)
   * [Use an Up-To-Date Compiler Version](coding/use-up-to-date-compiler-version.md)
@@ -32,7 +32,7 @@
   * [Follow the EIP-712 Standard for Digital Signatures](coding/adhere-to-eip-712.md)
   * [Vetting Process for External Tokens](coding/vetting-process-for-external-tokens.md)
 
-* [Testing](testing/README.md)
+* Testing
   * [Develop Comprehensive Unit Tests](testing/unit-tests.md)
   * [Develop Comprehensive Integration Tests](testing/integration-tests.md)
   * [Develop Comprehensive Fuzzing Tests](testing/fuzzing-tests.md)
@@ -40,7 +40,7 @@
   * [Track and Optimize Test Coverage](testing/optimize-test-coverage.md)
   * [Conduct End-to-End Testing on Testnet](testing/e2e-tests-testnet.md)
 
-* [Pre-Deployment](pre-deployment/README.md)
+* Pre-Deployment
   * [How to Decide What Type of Security Review Your Project Needs](pre-deployment/types-of-security-reviews.md)
   * [Key Considerations for Setting the Mainnet Deployment Date](pre-deployment/setting-the-mainnet-deployment-date.md)
   * [Conduct an Internal Security Review](pre-deployment/internal-security-reviews.md)
@@ -50,25 +50,25 @@
   * [Leverage Security Reviews to Define Tailor-Made Monitoring Rules](pre-deployment/tailor-made-security-rules.md)
   * [Establish a Contingency Plan](pre-deployment/establish-contingency-plan.md)
 
-* [Deployment](deployment/README.md)
+* Deployment
   * [Adopt a “Soft Launch” Strategy](deployment/soft-launch.md)
   * [Never Deploy Code That Was Not Reviewed Externally](deployment/never-deploy-without-review.md)
   * [Verify Your Deployed Contracts](deployment/post-deployment-verification.md)
   * [Launch a Bug Bounty Program](deployment/bug-bounty.md)
 
-* [Ongoing Upgrades](upgrades/README.md)
+* Ongoing Upgrades
   * [Handling Communications Before a Smart Contract Upgrade](ongoing-upgrades/handling-comms-upgrade.md)
   * [Ensure Changes Are Backwards Compatible](ongoing-upgrades/upgrade-backwards-compatibillity.md)
   * [Use Existing Unit Tests to Prevent Regression Bugs](ongoing-upgrades/prevent-regression-bugs.md)
   * [Handling State Migration in a Secure Way](ongoing-upgrades/handling-migrations.md)
   * [Key Considerations for the Security Review of Upgrades](ongoing-upgrades/key-considerations-upgrade-reviews.md)
 
-* [Ongoing Operations](operations/README.md)
+* Ongoing Operations
   * [Establish a Chief of Security Role](ongoing-operations/chief-of-security.md)
   * [Establish a Security Council](ongoing-operations/security-council.md)
   * [Managing Privileged Accounts Securely](ongoing-operations/securing-privileged-accounts.md)
   * [Add Regression Tests After Fixing Vulnerabilities](ongoing-operations/regression-tests-for-vulns.md)
 
-* [Emergency Response](emergency-response/README.md)
+* Emergency Response
   * [Handling a Security Incident](emergency-response/handling-security-incident.md)
   * [Post-Incident Actions](emergency-response/post-incident-actions.md)
