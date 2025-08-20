@@ -26,6 +26,7 @@
   * [Revert vs Return](coding/revert-vs-return.md)
   * [Avoid Unlimited ERC-20 Approvals](coding/avoid-unlimited-erc20-approvals.md)
   * [Use the Safe ERC-20 Library](coding/safe-erc20-library.md)
+  * [Beware of "NFT Front Running" in ERC-721 Tokenization](coding/nft-front-running.md)
   * [Rounding in Favor of the Protocol with Integer Division in Solidity](coding/round-in-favor-of-protocol.md)
   * [Use the SafeCast Library](coding/safe-cast-library.md)
   * [Use Cryptographic Libraries](coding/use-cryptographic-libs.md)
