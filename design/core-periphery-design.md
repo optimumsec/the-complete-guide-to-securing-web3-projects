@@ -2,7 +2,7 @@
 
 For teams that decide **not** to use upgradeable contracts (see the
 [gradual immutability
-path](https://github.com/optimumsec/the-complete-guide-to-securing-web3-protocols/blob/main/design/gradual-immutability-path.md)),
+path](https://github.com/optimumsec/the-complete-guide-to-securing-web3-projects/blob/main/design/gradual-immutability-path.md)),
 the **core--periphery split** is a practical design choice that can
 minimize security issues while still allowing controlled changes of functionality.
 
