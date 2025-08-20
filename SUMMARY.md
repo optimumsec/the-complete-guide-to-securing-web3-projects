@@ -3,12 +3,14 @@
 
 * Design
   * [Design a Gradual Path Towards Immutability](design/gradual-immutability-path.md)
+  * [Core--Periphery Design Pattern for Immutable Protocols](design/core-periphery-design.md)
   * [Actor-Based Threat Modeling](design/actor-based-threat-modeling.md)
   * [Principle of Least Privilege](design/least-privilege.md)
   * [Implement a Role-Based Access Control (RBAC) Model](design/rbac.md)
   * [Design for Funds Isolation](design/funds-isolation.md)
   * [Implement Circuit Breakers](design/circuit-breakers.md)
   * [Global Registry for Project Deployed Smart Contracts](design/global-registry.md)
+  
 
 * Coding
   * [Code Conservatism: Less is More](coding/code-conservatism.md)
@@ -21,8 +23,10 @@
   * [Use a Plugin for Safe Upgrades](coding/plugin-for-safe-upgrades.md)
   * [Use Reentrancy Guards](coding/reentrancy-guards.md)
   * [Revert/Return Early](coding/revert-return-early.md)
+  * [Revert vs Return](coding/revert-vs-return.md)
   * [Avoid Unlimited ERC-20 Approvals](coding/avoid-unlimited-erc20-approvals.md)
   * [Use the Safe ERC-20 Library](coding/safe-erc20-library.md)
+  * [Rounding in Favor of the Protocol with Integer Division in Solidity](coding/round-in-favor-of-protocol.md)
   * [Use the SafeCast Library](coding/safe-cast-library.md)
   * [Use Cryptographic Libraries](coding/use-cryptographic-libs.md)
   * [Prefer to Avoid Low-Level Calls](coding/avoid-low-level-calls.md)
