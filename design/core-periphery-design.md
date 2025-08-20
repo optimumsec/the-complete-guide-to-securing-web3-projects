@@ -1,4 +1,4 @@
-## Core--Periphery Design Pattern for Immutable Protocols
+## Core/Periphery Design Pattern for Immutable Protocols
 
 For teams that decide **not** to use upgradeable contracts (see the
 [gradual immutability
@@ -7,7 +7,7 @@ the **core--periphery split** is a practical design choice that can
 minimize security issues while still allowing controlled changes of functionality.
 
 
-### What Is the Core--Periphery Split?
+### What Is the Core/Periphery Split?
 
 The **core** is the immutable, minimal set of contracts that define
 protocol-critical logic and invariants.
