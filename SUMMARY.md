@@ -30,6 +30,7 @@
   * [Rounding in Favor of the Protocol with Integer Division in Solidity](coding/round-in-favor-of-protocol.md)
   * [Use the SafeCast Library](coding/safe-cast-library.md)
   * [Use Cryptographic Libraries](coding/use-cryptographic-libs.md)
+  * [Consider Non-Sequential Nonces for Digital Signatures](coding/non-sequential-nonces.md)
   * [Prefer to Avoid Low-Level Calls](coding/avoid-low-level-calls.md)
   * [Use `abi.encodeCall` for Low Level Calls](coding/abi-encode-call.md)
   * [Careful Vetting of Unchecked Blocks](coding/careful-vetting-of-unchecked-blocks.md)
