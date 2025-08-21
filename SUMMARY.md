@@ -2,7 +2,7 @@
 
 * Design
   * [Design a Gradual Path Towards Immutability](design/gradual-immutability-path.md)
-  * [Core--Periphery Design Pattern for Immutable Protocols](design/core-periphery-design.md)
+  * [Core/Periphery Design Pattern for Immutable Protocols](design/core-periphery-design.md)
   * [Actor-Based Threat Modeling](design/actor-based-threat-modeling.md)
   * [Principle of Least Privilege](design/least-privilege.md)
   * [Implement a Role-Based Access Control (RBAC) Model](design/rbac.md)
