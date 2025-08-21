@@ -72,12 +72,14 @@
   * [Key Considerations for the Security Review of Upgrades](ongoing-upgrades/key-considerations-upgrade-reviews.md)
   * [Conduct a Web3SOC-Style Review](ongoing-operations/web3soc-review.md)
 
-
 * Ongoing Operations
-  * [Establish a Chief of Security Role](ongoing-operations/chief-of-security.md)
+  * [Establish a Head of Security Role](ongoing-operations/head-of-security.md)
   * [Establish a Security Council](ongoing-operations/security-council.md)
   * [Managing Privileged Accounts Securely](ongoing-operations/securing-privileged-accounts.md)
   * [Add Regression Tests After Fixing Vulnerabilities](ongoing-operations/regression-tests-for-vulns.md)
+  * [Secure Your Treasury](ongoing-operations/secured-treasury.md)
+  * [Securing DAOs and DAO Voting](ongoing-operations/securing-daos.md)
+  * [Background Checks and Personnel Security for Web3 Projects](ongoing-operations/personnel-security.md)
 
 * Emergency Response
   * [Handling a Security Incident](emergency-response/handling-security-incident.md)

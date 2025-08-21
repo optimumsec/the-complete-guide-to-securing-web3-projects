@@ -1,14 +1,14 @@
-## Establish a Chief of Security Role
+## Establish a Head of Security Role
 
-Dedicating a **Chief of Security** for a project is essential to establishing a clear, consistent approach to risk management and security strategy.
+Dedicating a **Head of Security** for a project is essential to establishing a clear, consistent approach to risk management and security strategy.
 
-A Chief of Security provides centralized leadership, overseeing security reviews, managing incident responses, and continuously assessing the threat landscape. This role ensures that security considerations are embedded at every stage of the project lifecycle—from design to deployment, and beyond.
+A Head of Security provides centralized leadership, overseeing security reviews, managing incident responses, and continuously assessing the threat landscape. This role ensures that security considerations are embedded at every stage of the project lifecycle—from design to deployment, and beyond.
 
 ---
 
-### Responsibilities of the Chief of Security
+### Responsibilities of the Head of Security
 
-The Chief of Security should take on the following key responsibilities:
+The Head of Security should take on the following key responsibilities:
 
 - **Security Reviews**: Plan, coordinate, and review internal and external reviews to identify and mitigate vulnerabilities in smart contracts and infrastructure.
 
