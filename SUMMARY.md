@@ -1,4 +1,3 @@
-
 * [🔐 The Complete Guide to Securing Web3 Projects](gitbook-README.md)
 
 * Design
@@ -11,7 +10,6 @@
   * [Implement Circuit Breakers](design/circuit-breakers.md)
   * [Global Registry for Project Deployed Smart Contracts](design/global-registry.md)
   
-
 * Coding
   * [Code Conservatism: Less is More](coding/code-conservatism.md)
   * [Use a Spell Checker](coding/use-spell-checker.md)
@@ -37,6 +35,7 @@
   * [Avoid Arbitrary Low-Level External Calls](coding/avoid-arbitrary-external-calls.md)
   * [Follow the EIP-712 Standard for Digital Signatures](coding/adhere-to-eip-712.md)
   * [Vetting Process for External Tokens](coding/vetting-process-for-external-tokens.md)
+  * [Ensure Code Dependencies Are Secured](coding/code-dependencies-security.md)
 
 * Testing
   * [Develop Comprehensive Unit Tests](testing/unit-tests.md)
@@ -54,6 +53,9 @@
   * [Conduct an External Security Review (a.k.a. Audit)](pre-deployment/external-security-reviews.md)
   * [Implement Robust Monitoring Security Rules](pre-deployment/monitoring-security-rules.md)
   * [Leverage Security Reviews to Define Tailor-Made Monitoring Rules](pre-deployment/tailor-made-security-rules.md)
+  * [Configuration Risk Assessment for DeFi Protocols](pre-deployment/configuration-risk-management.md)
+  * [Conduct an External Web2 Security Review](pre-deployment/web2-security-reviews.md)
+  * [Conduct a Solvency Assurance Audit](pre-deployment/solvency-audit.md)
   * [Establish a Contingency Plan](pre-deployment/establish-contingency-plan.md)
 
 * Deployment
@@ -68,6 +70,8 @@
   * [Use Existing Unit Tests to Prevent Regression Bugs](ongoing-upgrades/prevent-regression-bugs.md)
   * [Handling State Migration in a Secure Way](ongoing-upgrades/handling-migrations.md)
   * [Key Considerations for the Security Review of Upgrades](ongoing-upgrades/key-considerations-upgrade-reviews.md)
+  * [Conduct a Web3SOC-Style Review](ongoing-operations/web3soc-review.md)
+
 
 * Ongoing Operations
   * [Establish a Chief of Security Role](ongoing-operations/chief-of-security.md)
