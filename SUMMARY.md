@@ -80,6 +80,7 @@
   * [Secure Your Treasury](ongoing-operations/secured-treasury.md)
   * [Securing DAOs and DAO Voting](ongoing-operations/securing-daos.md)
   * [Background Checks and Personnel Security for Web3 Projects](ongoing-operations/personnel-security.md)
+  * [Periodically Revoke Permissions to Critical Assets](ongoing-operations/periodic-permissions-revocation.md)
 
 * Emergency Response
   * [Handling a Security Incident](emergency-response/handling-security-incident.md)
