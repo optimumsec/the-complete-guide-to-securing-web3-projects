@@ -55,6 +55,7 @@
   * [Leverage Security Reviews to Define Tailor-Made Monitoring Rules](pre-deployment/tailor-made-security-rules.md)
   * [Configuration Risk Assessment for DeFi Protocols](pre-deployment/configuration-risk-management.md)
   * [Conduct an External Web2 Security Review](pre-deployment/web2-security-reviews.md)
+  * [Protect Against DNS Poisoning](pre-deployment/dns-poisioning.md)
   * [Conduct a Solvency Assurance Audit](pre-deployment/solvency-audit.md)
   * [Establish a Contingency Plan](pre-deployment/establish-contingency-plan.md)
 
@@ -80,6 +81,11 @@
   * [Secure Your Treasury](ongoing-operations/secured-treasury.md)
   * [Securing DAOs and DAO Voting](ongoing-operations/securing-daos.md)
   * [Background Checks and Personnel Security for Web3 Projects](ongoing-operations/personnel-security.md)
+  * [Protect Against Social Media Takeovers (Twitter, Discord)](ongoing-operations/social-media-takeovers.md)
+  * [Protect Against Phishing Attacks](ongoing-operations/phishing-attacks.md)
+  * [Protect Against Denial-of-Service (DoS/DDoS) Attacks](ongoing-operations/denial-of-service.md)
+  * [Protect Against SIM Swapping](ongoing-operations/sim-swapping.md)
+  * [Protect Against Credential Stuffing and Account Takeovers](ongoing-operations/credential-stuffing.md)
   * [Periodically Revoke Permissions to Critical Assets](ongoing-operations/periodic-permissions-revocation.md)
 
 * Emergency Response
