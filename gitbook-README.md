@@ -5,3 +5,5 @@ Security is a top priority for web3 users when choosing decentralized applicatio
 At [OptimumSec](https://optimumsec.xyz/), we’ve seen that projects succeed when security is treated as a continuous process rather than a one-time checklist. This guide distills that approach into a clear, actionable framework for integrating security throughout the smart contract lifecycle—from design and coding to deployment and ongoing maintenance. 
 
 Whether launching a new project or improving an existing one, use this resource to reduce risks, streamline processes, and build a strong foundation for secure operations.
+
+We welcome community contributions! If you have suggestions or additional insights, feel free to open a PR on our [GitHub repository](https://github.com/optimumsec/the-complete-guide-to-securing-web3-projects) to help improve this guide.
