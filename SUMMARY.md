@@ -71,13 +71,13 @@
   * [Use Existing Unit Tests to Prevent Regression Bugs](ongoing-upgrades/prevent-regression-bugs.md)
   * [Handling State Migration in a Secure Way](ongoing-upgrades/handling-migrations.md)
   * [Key Considerations for the Security Review of Upgrades](ongoing-upgrades/key-considerations-upgrade-reviews.md)
-  * [Conduct a Web3SOC-Style Review](ongoing-operations/web3soc-review.md)
 
 * Ongoing Operations
   * [Establish a Head of Security Role](ongoing-operations/head-of-security.md)
   * [Establish a Security Council](ongoing-operations/security-council.md)
   * [Managing Privileged Accounts Securely](ongoing-operations/securing-privileged-accounts.md)
   * [Add Regression Tests After Fixing Vulnerabilities](ongoing-operations/regression-tests-for-vulns.md)
+  * [Conduct a Web3SOC-Style Review](ongoing-operations/web3soc-review.md)
   * [Secure Your Treasury](ongoing-operations/secured-treasury.md)
   * [Securing DAOs and DAO Voting](ongoing-operations/securing-daos.md)
   * [Background Checks and Personnel Security for Web3 Projects](ongoing-operations/personnel-security.md)
